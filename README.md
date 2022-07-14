@@ -123,6 +123,17 @@ sudo systemctl enable CommanderPro
 sudo systemctl daemon-reload
 sudo systemctl enable CommanderPro --now
 ```
+### Install Basic tools and programs needed to properly use the operating system
+```
+sudo pacman -S firefox
+sudo pacman -S packagekit-qt5 flatpak fwupd
+
+cd /tmp/
+git clone https://aur.archlinux.org/yay-git.git
+cd yay-git
+makepkg -si
+```
+
 ### Install Steam
 https://wiki.archlinux.org/title/steam
 ```
