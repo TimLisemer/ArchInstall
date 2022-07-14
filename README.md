@@ -150,7 +150,7 @@ steam
 ### Install Spotify & Discord
 ```
 yay -S spotify
-pacman -S discord
+sudo pacman -S discord
 ```
 
 ### Install Development Environments
