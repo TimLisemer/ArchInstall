@@ -111,6 +111,7 @@ sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils
 ```
 Reboot
 ### Setup fancontrol
+__Only works in combination with an Amd Cpu and a Corsair Commander Pro__
 ```
 sudo pacman -S git
 cd /home/tim
