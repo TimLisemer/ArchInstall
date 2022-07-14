@@ -119,7 +119,7 @@ cd ArchInstall
 cd fancontrol
 sudo cp -R CommanderPro /etc
 sudo cp CommanderPro.service /etc/systemd/system
-systemctl enable CommanderPro
-systemctl daemon-reload
-systemctl enable CommanderPro --now
+sudo systemctl enable CommanderPro
+sudo systemctl daemon-reload
+sudo systemctl enable CommanderPro --now
 ```
