@@ -1,6 +1,7 @@
 # ArchInstall
 
 ##Install Arch
+Copy Paste to Install Arch Linux
 ###Links
 https://itsfoss.com/install-arch-linux/
 https://itsfoss.com/install-kde-arch-linux/
