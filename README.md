@@ -106,14 +106,20 @@ Uncomment Multilib lines
 sudo nano /etc/pacman.conf
 ```
 ```
-pacman -Syy
-pacman -S nvidia
+sudo pacman -Syy
+sudo pacman -S nvidia
 ```
 Reboot
 ### Setup fancontrol
 ```
-pacman -S git
+sudo pacman -S git
 cd /home/tim
 git clone https://github.com/TimLisemer/ArchInstall.git
 cd ArchInstall
+cd fancontrol
+sudo cp -R CommanderPro /etc
+sudo cp CommanderPro.service /etc/systemd/system
+systemctl enable CommanderPro
+systemctl daemon-reload
+systemctl enable CommanderPro --now
 ```
