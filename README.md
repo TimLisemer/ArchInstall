@@ -147,7 +147,23 @@ sudo pacman -S steam
 steam
 ```
 
-### Install Spotify
+### Install Spotify & Discord
 ```
 yay -S spotify
+pacman -S discord
+```
+
+### Install Development Environments
+Visual Studio Code
+```
+sudo pacman -S code
+yay -S code-marketplace
+```
+Jetbrains
+```
+yay -S jetbrains-toolbox
+```
+Java Python Gcc Maven
+```
+sudo pacman -S jdk-openjdk python python-pip gcc maven
 ```
