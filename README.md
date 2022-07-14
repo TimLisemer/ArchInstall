@@ -107,7 +107,7 @@ sudo nano /etc/pacman.conf
 ```
 ```
 sudo pacman -Syy
-sudo pacman -S nvidia
+sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils
 ```
 Reboot
 ### Setup fancontrol
@@ -122,4 +122,10 @@ sudo cp CommanderPro.service /etc/systemd/system
 sudo systemctl enable CommanderPro
 sudo systemctl daemon-reload
 sudo systemctl enable CommanderPro --now
+```
+### Install Steam
+https://wiki.archlinux.org/title/steam
+```
+sudo pacman -S ttf-liberation wqy-zenhei lib32-systemd
+sudo pacman -S steam
 ```
