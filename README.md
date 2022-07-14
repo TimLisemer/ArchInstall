@@ -1,8 +1,8 @@
 # ArchInstall
-
-##Install Arch
+Install and Setup Arch optimized for my Computer
+## Install Arch
 Copy Paste to Install Arch Linux
-###Links
+### Links
 https://itsfoss.com/install-arch-linux/
 https://itsfoss.com/install-kde-arch-linux/
 ### Commands
@@ -96,4 +96,24 @@ Exit
 ```
 exit
 reboot
+```
+
+## Setup Arch
+### Install nvidia Driver
+
+Uncomment Multilib lines
+```
+sudo nano /etc/pacman.conf
+```
+```
+pacman -Syy
+pacman -S nvidia
+```
+Reboot
+### Setup fancontrol
+```
+pacman -S git
+cd /home/tim
+git clone https://github.com/TimLisemer/ArchInstall.git
+cd ArchInstall
 ```
