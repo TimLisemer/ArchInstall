@@ -126,6 +126,7 @@ sudo systemctl enable CommanderPro --now
 ### Install Basic tools and programs needed to properly use the operating system
 ```
 sudo pacman -S firefox
+xdg-settings set default-web-browser firefox.desktop
 sudo pacman -S packagekit-qt5 flatpak fwupd
 sudo pacman -S --needed base-devel
 
