@@ -128,4 +128,5 @@ https://wiki.archlinux.org/title/steam
 ```
 sudo pacman -S ttf-liberation wqy-zenhei lib32-systemd
 sudo pacman -S steam
+steam
 ```
