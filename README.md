@@ -127,11 +127,16 @@ sudo systemctl enable CommanderPro --now
 ```
 sudo pacman -S firefox
 sudo pacman -S packagekit-qt5 flatpak fwupd
+sudo pacman -S --needed base-devel
 
 cd /tmp/
 git clone https://aur.archlinux.org/yay-git.git
 cd yay-git
 makepkg -si
+
+sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 xvidcore
+sudo pacman -S vlc audacious
+pacman -S adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts noto-fonts-cjk
 ```
 
 ### Install Steam
@@ -140,4 +145,9 @@ https://wiki.archlinux.org/title/steam
 sudo pacman -S ttf-liberation wqy-zenhei lib32-systemd
 sudo pacman -S steam
 steam
+```
+
+### Install Spotify
+```
+yay -S spotify
 ```
