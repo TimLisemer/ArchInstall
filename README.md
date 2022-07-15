@@ -68,10 +68,11 @@ passwd
 ```
 Install Grub bootloader
 ```
-pacman -S grub efibootmgr
+pacman -S grub efibootmgr os-prober
 mkdir /boot/efi
 mount /dev/nvme0n1p1 /boot/efi
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
+os-prober
 
 cd /tmp
 git clone https://github.com/TimLisemer/ArchInstall.git
