@@ -1,0 +1,10 @@
+[Unit]
+Description=<Starts fancontrol with CommanderProSettings>
+
+[Service]
+WorkingDirectory=/etc/CommanderPro/
+ExecStart=/etc/CommanderPro/initialize.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
