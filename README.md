@@ -153,7 +153,7 @@ sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 l
 sudo pacman -S vlc audacious
 sudo pacman -S adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
 
-sudo echo "GRUB_DISABLE_OS_PROBER=false" /etc/default/grub
+sudo echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo os-prober
 sudo grub-mkconfig -o /boot/grub/grub.cfg
