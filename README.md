@@ -93,7 +93,7 @@ usermod -aG wheel,audio,video,storage tim
 ```
 
 ```
-echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers.tmp
+echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ```
 Install Kde
 ```
