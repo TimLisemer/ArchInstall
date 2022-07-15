@@ -59,11 +59,10 @@ export LANG=en_GB.UTF-8
 Network configuration
 ```
 echo TimLinux > /etc/hostname
-nano /etc/hosts
 
-127.0.0.1	localhost
-::1		localhost
-127.0.1.1	TimLinux
+echo "127.0.0.1	localhost" >> /etc/hosts
+echo "::1		localhost" >> /etc/hosts
+echo "127.0.1.1	TimLinux" >> /etc/hosts
 ```
 Setting up root password
 ```
