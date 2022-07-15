@@ -75,7 +75,7 @@ grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
 os-prober
 
 cd /tmp
-https://github.com/vinceliuice/grub2-themes.git
+git-clone https://github.com/vinceliuice/grub2-themes.git
 cd grub2-themes
 ./install.sh -b -t whitesur -i whitesur -s 2k
 
