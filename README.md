@@ -74,6 +74,7 @@ pacman -S grub efibootmgr os-prober
 mkdir /boot/efi
 mount /dev/nvme0n1p1 /boot/efi
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
+sudo echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
 os-prober
 
 cd /tmp
@@ -104,6 +105,9 @@ echo "logind-check-graphical=true" >> /etc/lightdm/lightdm.conf
 
 systemctl enable lightdm.service
 systemctl enable NetworkManager.service
+
+sudo echo "[multilib]" >> /etc/pacman.conf
+sudo echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 ```
 Exit
 ```
@@ -113,11 +117,6 @@ reboot
 
 ## Setup Arch
 ### Install nvidia Driver
-
-```
-sudo echo "[multilib]" >> /etc/pacman.conf
-sudo echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
-```
 ```
 sudo pacman -Syy
 sudo pacman -S --needed nvidia nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
@@ -153,9 +152,6 @@ sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 l
 sudo pacman -S vlc audacious
 sudo pacman -S adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
 
-sudo echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo os-prober
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
