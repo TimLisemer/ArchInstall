@@ -115,8 +115,8 @@ reboot
 ### Install nvidia Driver
 
 ```
-sudo echo"[multilib]" >> /etc/pacman.conf
-sudo echo"Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
+sudo echo "[multilib]" >> /etc/pacman.conf
+sudo echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 ```
 ```
 sudo pacman -Syy
@@ -152,6 +152,11 @@ makepkg -si
 sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 xvidcore
 sudo pacman -S vlc audacious
 sudo pacman -S adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
+
+sudo echo "GRUB_DISABLE_OS_PROBER=false" /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Install Steam
