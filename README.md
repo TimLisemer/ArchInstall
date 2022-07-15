@@ -88,8 +88,8 @@ EDITOR=nano visudo
 ```
 Install Kde
 ```
-pacman -S xorg plasma plasma-wayland-session kde-applications 
-systemctl enable sddm.service
+pacman -S xorg plasma plasma-wayland-session kde-applications lightdm deepin-session-shell
+systemctl enable lightdm.service
 systemctl enable NetworkManager.service
 ```
 Exit
