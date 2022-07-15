@@ -91,9 +91,9 @@ useradd -m tim
 passwd tim
 usermod -aG wheel,audio,video,storage tim
 ```
-Uncomment %wheel  line
+
 ```
-EDITOR=nano visudo
+echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers.tmp
 ```
 Install Kde
 ```
@@ -110,9 +110,9 @@ reboot
 ## Setup Arch
 ### Install nvidia Driver
 
-Uncomment Multilib lines
 ```
-sudo nano /etc/pacman.conf
+echo"[multilib]" >> /etc/pacman.conf
+echo"Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 ```
 ```
 sudo pacman -Syy
