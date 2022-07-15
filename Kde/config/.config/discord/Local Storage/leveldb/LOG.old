@@ -1,0 +1,5 @@
+2022/07/15-04:37:16.948 2d7d5 Creating DB /home/tim/.config/discord/Local Storage/leveldb since it was missing.
+2022/07/15-04:37:16.966 2d7d5 Reusing MANIFEST /home/tim/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/07/15-04:39:21.516 2d7d7 Level-0 table #5: started
+2022/07/15-04:39:21.532 2d7d7 Level-0 table #5: 490809 bytes OK
+2022/07/15-04:39:21.540 2d7d7 Delete type=0 #3

@@ -1,0 +1,6 @@
+2022/07/15-04:41:14.384 30b9d Reusing MANIFEST /home/tim/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/07/15-04:41:14.384 30b9d Recovering log #4
+2022/07/15-04:41:14.385 30b9d Reusing old log /home/tim/.config/discord/Local Storage/leveldb/000004.log 
+2022/07/15-04:42:15.272 30b9d Level-0 table #8: started
+2022/07/15-04:42:15.288 30b9d Level-0 table #8: 513218 bytes OK
+2022/07/15-04:42:15.296 30b9d Delete type=0 #4
