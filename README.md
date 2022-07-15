@@ -121,12 +121,12 @@ Reboot
 __Only works in combination with an Amd Cpu and a Corsair Commander Pro__
 ```
 sudo pacman -S git
-cd /home/tim
+cd /tmp
 git clone https://github.com/TimLisemer/ArchInstall.git
 cd ArchInstall
 cd fancontrol
 sudo cp -R CommanderPro /etc
-sudo cp CommanderPro.service /etc/systemd/system
+sudo cp CommanderProStart.service /etc/systemd/system
 sudo systemctl enable CommanderPro
 sudo systemctl daemon-reload
 sudo systemctl enable CommanderPro --now
