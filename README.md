@@ -38,7 +38,7 @@ reflector -c "DE" -f 12 -l 10 -n 12 --save /etc/pacman.d/mirrorlist
 Install Arch Linux
 ```
 mount /dev/nvme0n1p2 /mnt
-pacstrap /mnt base linux linux-firmware vim nano
+pacstrap /mnt base linux linux-firmware vim nano git
 ```
 Configure the installed Arch system
 ```
@@ -72,6 +72,11 @@ pacman -S grub efibootmgr
 mkdir /boot/efi
 mount /dev/nvme0n1p1 /boot/efi
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
+
+cd /tmp
+git clone https://github.com/TimLisemer/ArchInstall.git
+./install.sh -b -t whitesur -i whitesur -s 2k
+
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 Create Additional user and enforce privileges
