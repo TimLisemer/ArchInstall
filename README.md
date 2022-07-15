@@ -107,7 +107,7 @@ sudo nano /etc/pacman.conf
 ```
 ```
 sudo pacman -Syy
-sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils
+sudo pacman -S --needed nvidia nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
 ```
 Reboot
 ### Setup fancontrol
