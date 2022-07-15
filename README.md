@@ -98,6 +98,10 @@ echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers.tmp
 Install Kde
 ```
 pacman -S xorg plasma plasma-wayland-session kde-applications lightdm deepin-session-shell
+
+echo "display-setup-script=xrandr --output DP1 --primary" >> /etc/lightdm/lightdm.conf
+echo "logind-check-graphical=true" >> /etc/lightdm/lightdm.conf
+
 systemctl enable lightdm.service
 systemctl enable NetworkManager.service
 ```
