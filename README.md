@@ -127,9 +127,9 @@ cd ArchInstall
 cd fancontrol
 sudo cp -R CommanderPro /etc
 sudo cp CommanderProStart.service /etc/systemd/system
-sudo systemctl enable CommanderPro
+sudo systemctl enable CommanderProStart
 sudo systemctl daemon-reload
-sudo systemctl enable CommanderPro --now
+sudo systemctl enable CommanderProStart --now
 ```
 ### Install Basic tools and programs needed to properly use the operating system
 ```
