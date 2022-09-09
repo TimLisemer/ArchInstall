@@ -172,11 +172,34 @@ Visual Studio Code
 sudo pacman -S code
 yay -S code-marketplace
 ```
+
+Java Python Gcc Maven
+```
+sudo pacman -S jdk-openjdk python python-pip gcc maven
+```
+
 Jetbrains
 ```
 yay -S jetbrains-toolbox
 ```
-Java Python Gcc Maven
+Docker
 ```
-sudo pacman -S jdk-openjdk python python-pip gcc maven
+pacman -S docker docker-compose
+```
+
+##Setup KDE Theme
+https://www.youtube.com/watch?v=kcOZ4wPZdxY&t
+https://www.youtube.com/watch?v=A0LiFu1eaMs&t
+
+KDE Settings
+Download Layan Global Theme & set it
+Download Layan GDK Theme & set it
+
+Download Kwantum
+```
+pacman -S kwantum
+```
+Download Layan Kwantum theme from Website & install it using Kwantum application
+```
+https://store.kde.org/p/1325246/
 ```
