@@ -195,7 +195,7 @@ Docker
 pacman -S docker docker-compose
 ```
 
-##Setup KDE Theme
+### Setup KDE Theme
 https://www.youtube.com/watch?v=kcOZ4wPZdxY&t
 https://www.youtube.com/watch?v=A0LiFu1eaMs&t
 
