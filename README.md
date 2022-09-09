@@ -231,3 +231,18 @@ sudo kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.k
 sudo qdbus org.kde.KWin /KWin reconfigure
 ```
 
+Recommended Widgets:
+
+Better Inline Clock; Application title; Latte Spacer; 
+
+### Install Fish Shell
+```
+sudo pacman -S fish
+chsh -s /bin/fish
+```
+```
+reboot
+```
+```
+fish_config
+```
