@@ -96,7 +96,7 @@ echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ```
 Install Kde
 ```
-pacman -S plasma kde-applications firefox
+pacman -S plasma kde-applications firefox git
 
 systemctl enable sddm.service
 systemctl enable NetworkManager.service
@@ -123,11 +123,9 @@ reboot
 ### Setup fancontrol
 __Only works in combination with an Amd Cpu and a Corsair Commander Pro__
 ```
-sudo pacman -S git
 cd /tmp
 git clone https://github.com/TimLisemer/ArchInstall.git
-cd ArchInstall
-cd fancontrol
+cd ArchInstall/fancontrol
 sudo cp -R CommanderPro /etc
 sudo cp CommanderProStart.service /etc/systemd/system
 sudo systemctl enable CommanderProStart
@@ -136,6 +134,8 @@ sudo systemctl enable CommanderProStart --now
 ```
 ### Install Basic tools and programs needed to properly use the operating system
 ```
+sudo os-prober
+grub-mkconfig -o /boot/grub/grub.cfg
 xdg-settings set default-web-browser firefox.desktop
 sudo pacman -S packagekit-qt5 flatpak fwupd
 sudo pacman -S --needed base-devel
@@ -166,6 +166,14 @@ yay -S spotify
 sudo pacman -S discord
 ```
 
+Install Easy Effects (Discord & Other Noise suppresion)
+```
+sudo pacman -S pipewire
+yay yay -S easyeffects
+```
+Open Easy Effects & Set it up Manually
+
+
 ### Install Development Environments
 Visual Studio Code
 ```
@@ -194,12 +202,28 @@ https://www.youtube.com/watch?v=A0LiFu1eaMs&t
 KDE Settings
 Download Layan Global Theme & set it
 Download Layan GDK Theme & set it
+Setup Layan as Sddm Theme
 
 Download Kwantum
 ```
-pacman -S kwantum
+sudo pacman -S kwantum
 ```
 Download Layan Kwantum theme from Website & install it using Kwantum application
 ```
 https://store.kde.org/p/1325246/
 ```
+
+Setup Latte Dock
+```
+yay -S latte-dock
+cd /tmp
+git clone https://github.com/TimLisemer/ArchInstall.git
+```
+Import /tmp/ArchInstall/LatteLayout.latte into latte Dock
+
+Open KRunner with the Meta key
+```
+sudo kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,toggleDisplay"
+sudo qdbus org.kde.KWin /KWin reconfigure
+```
+
