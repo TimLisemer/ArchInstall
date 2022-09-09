@@ -199,10 +199,14 @@ pacman -S docker docker-compose
 https://www.youtube.com/watch?v=kcOZ4wPZdxY&t
 https://www.youtube.com/watch?v=A0LiFu1eaMs&t
 
-KDE Settings
+KDE Settings:
+
 Download Layan Global Theme & set it
+
 Download Layan GDK Theme & set it
+
 Setup Layan as Sddm Theme
+
 
 Download Kwantum
 ```
