@@ -74,7 +74,7 @@ mkdir /boot/efi
 mount /dev/nvme0n1p1 /boot/efi
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
 
-Edit /etc/default/grub
+nano /etc/default/grub
 GRUB_DISABLE_OS_PROBER=false
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet nvidia_drm.modeset=1"
 
@@ -106,9 +106,10 @@ systemctl enable NetworkManager.service
 
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
-
+```
 Install Gnome
 ```
+
 pacman -S networkmanager gdm gnome firefox git
 
 systemctl enable gdm.service
@@ -183,6 +184,8 @@ steam
 
 ### Install Spotify & Discord
 ```
+Use Flatpak or
+
 yay -S spotify
 sudo pacman -S discord
 ```
