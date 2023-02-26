@@ -57,11 +57,11 @@ export LANG=en_US.UTF-8
 ```
 Network configuration
 ```
-echo TimLinux > /etc/hostname
+echo Tim-Linux > /etc/hostname
 
 echo "127.0.0.1	localhost" >> /etc/hosts
 echo "::1		localhost" >> /etc/hosts
-echo "127.0.1.1	TimLinux" >> /etc/hosts
+echo "127.0.1.1	Tim-Linux" >> /etc/hosts
 ```
 Setting up root password
 ```
