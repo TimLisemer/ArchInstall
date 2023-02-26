@@ -126,6 +126,11 @@ sudo pacman -S --needed nvidia nvidia-utils lib32-nvidia-utils nvidia-settings v
 
 sudo nano /etc/mkinitcpio.conf
 change MODULES=() to MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
+
+sudo mkinitcpio -P
+
+On Gnome:
+sudo ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
 ```
 Reboot
 ```
