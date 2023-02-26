@@ -98,7 +98,7 @@ usermod -aG wheel,audio,video,storage tim
 echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ```
 
-##Kde / Gnome Desktop Enviroment
+### Kde / Gnome Desktop Enviroment
 Install Kde
 ```
 pacman -S plasma kde-applications firefox git
@@ -124,7 +124,7 @@ pacman -Syy
 sudo pacman -S gnome-software-packagekit-plugin archlinux-appstream-data
 pacman -Syy
 ```
-Install nvidia Driver
+### Install nvidia Driver
 ```
 sudo pacman -Syy
 sudo pacman -S --needed nvidia nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
