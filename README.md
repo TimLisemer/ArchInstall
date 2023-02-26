@@ -97,6 +97,8 @@ usermod -aG wheel,audio,video,storage tim
 ```
 echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ```
+
+##Kde / Gnome Desktop Enviroment
 Install Kde
 ```
 pacman -S plasma kde-applications firefox git
@@ -107,9 +109,9 @@ systemctl enable NetworkManager.service
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 ```
+
 Install Gnome
 ```
-
 pacman -S networkmanager gdm gnome firefox git
 
 systemctl enable gdm.service
@@ -118,6 +120,8 @@ systemctl enable NetworkManager.service
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 
+pacman -Syy
+sudo pacman -S gnome-software-packagekit-plugin archlinux-appstream-data
 pacman -Syy
 ```
 Install nvidia Driver
@@ -166,6 +170,8 @@ cd /tmp/
 git clone https://aur.archlinux.org/yay-git.git
 cd yay-git
 makepkg -si
+
+yay -S gnome-browser-connector
 
 sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 xvidcore
 sudo pacman -S vlc audacious
@@ -219,7 +225,14 @@ Docker
 pacman -S docker docker-compose
 ```
 
-### Setup KDE Theme
+Install Fish Shell
+```
+sudo pacman -S fish
+chsh -s /bin/fish
+fish_config
+```
+
+### Setup KDE
 https://www.youtube.com/watch?v=kcOZ4wPZdxY&t
 https://www.youtube.com/watch?v=A0LiFu1eaMs&t
 
@@ -256,17 +269,4 @@ sudo qdbus org.kde.KWin /KWin reconfigure
 ```
 
 Recommended Widgets:
-
 Better Inline Clock; Application title; Latte Spacer; 
-
-### Install Fish Shell
-```
-sudo pacman -S fish
-chsh -s /bin/fish
-```
-```
-reboot
-```
-```
-fish_config
-```
