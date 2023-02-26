@@ -15,7 +15,7 @@ d
 n
 +1024M
 t
-1
+ef
 ```
 ```
 n
@@ -73,7 +73,10 @@ pacman -S grub efibootmgr os-prober
 mkdir /boot/efi
 mount /dev/nvme0n1p1 /boot/efi
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
-echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
+
+Edit /etc/default/grub
+GRUB_DISABLE_OS_PROBER=false
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet nvidia_drm.modeset=1"
 
 cd /tmp
 git clone https://github.com/vinceliuice/grub2-themes.git
@@ -104,12 +107,25 @@ systemctl enable NetworkManager.service
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 
+Install Gnome
+```
+pacman -S networkmanager gdm gnome firefox git
+
+systemctl enable gdm.service
+systemctl enable NetworkManager.service
+
+echo "[multilib]" >> /etc/pacman.conf
+echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
+
 pacman -Syy
 ```
 Install nvidia Driver
 ```
 sudo pacman -Syy
 sudo pacman -S --needed nvidia nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
+
+sudo nano /etc/mkinitcpio.conf
+change MODULES=() to MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 ```
 Reboot
 ```
@@ -169,7 +185,7 @@ sudo pacman -S discord
 Install Easy Effects (Discord & Other Noise suppresion)
 ```
 sudo pacman -S pipewire
-yay yay -S easyeffects
+yay -S easyeffects
 ```
 Open Easy Effects & Set it up Manually
 
