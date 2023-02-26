@@ -101,7 +101,7 @@ echo "%wheel ALL=(ALL:ALL) ALL" >> /etc/sudoers
 ### Kde / Gnome Desktop Enviroment
 Install Kde
 ```
-pacman -S plasma kde-applications firefox git
+pacman -S plasma plasma-wayland-session egl-wayland kde-applications networkmanager sddm firefox git
 
 systemctl enable sddm.service
 systemctl enable NetworkManager.service
