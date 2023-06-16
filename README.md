@@ -134,6 +134,22 @@ change MODULES=() to MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 
 sudo mkinitcpio -P
 
+Tearing fix:
+sudo nano /etc/systemd/system/nvidia-settings.service
+
+[Unit]
+Description=NVIDIA Settings
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 {ForceFullCompositionPipeline=On}"
+
+[Install]
+WantedBy=graphical.target
+
+
+sudo systemctl enable nvidia-settings.service --now
+
 On Gnome:
 sudo ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
 ```
