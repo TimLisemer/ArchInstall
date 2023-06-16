@@ -244,6 +244,9 @@ pacman -S docker docker-compose
 Install Fish Shell
 ```
 sudo pacman -S fish
+
+set -U fish_greeting ""
+
 chsh -s /bin/fish
 fish_config
 ```
