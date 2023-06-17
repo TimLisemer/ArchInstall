@@ -133,24 +133,15 @@ sudo nano /etc/mkinitcpio.conf
 change MODULES=() to MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 
 sudo mkinitcpio -P
+```
 
-Tearing fix:
-sudo nano /etc/systemd/system/nvidia-settings.service
-
-[Unit]
-Description=NVIDIA Settings
-After=graphical.target
-
-[Service]
-ExecStart=/usr/bin/nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 {ForceFullCompositionPipeline=On}"
-
-[Install]
-WantedBy=graphical.target
-
-
-sudo systemctl enable nvidia-settings.service --now
+Tearing fix - Somehow autostart the following:
+```
+nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 {ForceFullCompositionPipeline=On}"
+```
 
 On Gnome:
+```
 sudo ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
 ```
 Reboot
@@ -158,8 +149,6 @@ Reboot
 exit
 reboot
 ```
-
-
 
 ## Setup Arch
 ### Setup fancontrol
@@ -251,6 +240,50 @@ chsh -s /bin/fish
 fish_config
 ```
 
+### Setup RGB
+
+CKB-NEXT -> Corsair Keyboards:
+```
+yay -S ckb-next
+sudo systemctl enable ckb-next-daemon --now
+```
+
+OpenRGB Installation:
+```
+https://gitlab.com/CalcProgrammer1/OpenRGB#arch
+
+flatpak install flathub org.openrgb.OpenRGB
+
+sudo wget https://gitlab.com/CalcProgrammer1/OpenRGB/-/jobs/4477053324/artifacts/raw/60-openrgb.rules -O /usr/lib/udev/rules.d/60-openrgb.rules
+
+sudo udevadm control --reload-rules && sudo udevadm trigger
+
+sudo pacman -S i2c-tools
+sudo modprobe i2c-dev
+sudo groupadd --system i2c
+sudo usermod $USER -aG i2c
+sudo touch /etc/modules-load.d/i2c.conf && sudo sh -c 'echo "i2c-dev" >> /etc/modules-load.d/i2c.conf'
+sudo modprobe i2c-piix4
+```
+
+OpenRGB Documentation for my PC:
+```
+Lightning Node Core:
+	Corsair Channel 1: Radiator Fan + Fan Back
+		-> 3 Fan * 8 Leds = 24 Leds
+	Corsair Channel 2: unused
+	
+Corsair Commander Pro:
+	Corsair Channel 1: Fan Front
+		-> 3 Fan * Led led = 3 Leds
+	Corsair Channel 2: RGB Strip
+		-> 3 * 40 Leds in parallel = 40 leds
+
+Asus ROG Strix X470-F GAMING:
+	Back I/O: Onboard Leds
+	RGB Header: unused
+	RGB Header 2: unused
+```
 ### Setup KDE
 https://www.youtube.com/watch?v=kcOZ4wPZdxY&t
 https://www.youtube.com/watch?v=A0LiFu1eaMs&t
@@ -272,7 +305,6 @@ Download Layan Kwantum theme from Website & install it using Kwantum application
 ```
 https://store.kde.org/p/1325246/
 ```
-
 Setup Latte Dock
 ```
 yay -S latte-dock
