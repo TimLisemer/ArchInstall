@@ -1,6 +1,0 @@
-
-[Default Applications]
-x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
-text/html=firefox.desktop

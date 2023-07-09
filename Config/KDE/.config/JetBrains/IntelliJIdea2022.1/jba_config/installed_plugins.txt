@@ -1,2 +1,0 @@
-com.demonwav.minecraft-dev
-name.kropp.intellij.makefile
