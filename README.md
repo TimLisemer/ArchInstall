@@ -178,9 +178,10 @@ makepkg -si
 
 yay -S gnome-browser-connector
 
-sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 xvidcore
-sudo pacman -S vlc audacious
+sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 x265 xvidcore
 sudo pacman -S adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
+
+sudo pacman -S vlc audacious
 
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
