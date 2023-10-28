@@ -120,36 +120,11 @@ systemctl enable NetworkManager.service
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 
-pacman -Syy
 sudo pacman -S gnome-software-packagekit-plugin archlinux-appstream-data
 pacman -Syy
-```
-### Install nvidia Driver
-```
-sudo pacman -Syy
-sudo pacman -S --needed nvidia nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
 
-sudo nano /etc/mkinitcpio.conf
-change MODULES=() to MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
-
-sudo mkinitcpio -P
-```
-
-Tearing fix - Somehow autostart the following:
-```
-nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 {ForceFullCompositionPipeline=On}"
-```
-
-On Gnome:
-```
 sudo ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
 ```
-Reboot
-```
-exit
-reboot
-```
-
 ## Setup Arch
 ### Setup fancontrol
 __Only works in combination with an Amd Cpu and a Corsair Commander Pro__
@@ -186,6 +161,57 @@ sudo pacman -S vlc audacious
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
+### Install nvidia Driver
+```
+sudo pacman -Syy
+sudo pacman -S --needed nvidia nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
+
+sudo nano /etc/mkinitcpio.conf
+change MODULES=() to MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
+
+sudo mkinitcpio -P
+```
+#### Add Pacman Hook for nvidia driver
+```
+sudo mkdir /etc/pacman.d/hooks
+sudo nano /etc/pacman.d/hooks/nvidia.hook
+```
+```
+[Trigger]
+Operation=Install
+Operation=Upgrade
+Operation=Remove
+Type=Package
+Target=nvidia
+Target=linux
+# Change the linux part above and in the Exec line if a different kernel is used
+
+[Action]
+Description=Update Nvidia module in initcpio
+Depends=mkinitcpio
+When=PostTransaction
+NeedsTargets
+Exec=/bin/sh -c 'while read -r trg; do case $trg in linux) exit 0; esac; done; /usr/bin/mkinitcpio -P'
+```
+#### Nvidia Hardware Acceleration
+```
+yay -S  libva-nvidia-driver
+sudo pacman -S ffmpeg libva-utils vdpauinfo
+vainfo
+vdapuinfo 
+```
+#### Nvidia Tearing fix - Somehow autostart the following:
+```
+nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 {ForceFullCompositionPipeline=On}"
+```
+
+
+# Reboot
+```
+exit
+reboot
+```
+
 ### Install Steam
 https://wiki.archlinux.org/title/steam
 ```
@@ -193,22 +219,6 @@ sudo pacman -S ttf-liberation wqy-zenhei lib32-systemd
 sudo pacman -S steam
 steam
 ```
-
-### Install Spotify & Discord
-```
-Use Flatpak or
-
-yay -S spotify
-sudo pacman -S discord
-```
-
-Install Easy Effects (Discord & Other Noise suppresion)
-```
-sudo pacman -S pipewire
-yay -S easyeffects
-```
-Open Easy Effects & Set it up Manually
-
 
 ### Install Development Environments
 Visual Studio Code
