@@ -226,6 +226,11 @@ Visual Studio Code
 sudo pacman -S code
 yay -S code-marketplace
 ```
+Rust
+```
+sudo pacman -S rustup
+rustup default stable
+```
 
 Java Python Gcc Maven
 ```
