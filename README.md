@@ -120,7 +120,7 @@ systemctl enable NetworkManager.service
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 
-sudo pacman -S gnome-software-packagekit-plugin archlinux-appstream-data
+sudo pacman -S archlinux-appstream-data
 pacman -Syy
 
 sudo ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
@@ -151,7 +151,7 @@ git clone https://aur.archlinux.org/yay-git.git
 cd yay-git
 makepkg -si
 
-yay -S gnome-browser-connector
+yay -S gnome-browser-connector adw-gtk3-git
 
 sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 x265 xvidcore
 sudo pacman -S adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
@@ -210,6 +210,12 @@ nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 {ForceFullComp
 ```
 exit
 reboot
+```
+
+### Install Gnome-Terminal
+```
+yay -S gnome-terminal-transparency
+sudo pacman -R gnome-console
 ```
 
 ### Install Steam
