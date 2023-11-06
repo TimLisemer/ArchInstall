@@ -103,8 +103,7 @@ Install Kde
 ```
 pacman -S plasma plasma-wayland-session egl-wayland kde-applications networkmanager sddm firefox git
 
-systemctl enable sddm.service
-systemctl enable NetworkManager.service
+systemctl enable sddm.service NetworkManager.service avahi-daemon
 
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
@@ -114,8 +113,7 @@ Install Gnome
 ```
 pacman -S networkmanager gdm gnome firefox git
 
-systemctl enable gdm.service
-systemctl enable NetworkManager.service
+systemctl enable gdm.service NetworkManager.service avahi-daemon
 
 echo "[multilib]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
