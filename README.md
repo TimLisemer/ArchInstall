@@ -273,6 +273,7 @@ OpenRGB Installation:
 https://gitlab.com/CalcProgrammer1/OpenRGB#arch
 
 flatpak install flathub org.openrgb.OpenRGB
+yay -S python-openrgb openrgb
 
 sudo wget https://gitlab.com/CalcProgrammer1/OpenRGB/-/jobs/4477053324/artifacts/raw/60-openrgb.rules -O /usr/lib/udev/rules.d/60-openrgb.rules
 
