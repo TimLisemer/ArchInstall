@@ -270,6 +270,8 @@ sudo systemctl enable ckb-next-daemon --now
 
 OpenRGB Installation:
 ```
+sudo pacman -S --needed git base-devel qtcreator qt5-base qtchooser qt5-tools libusb mbedtls2 qt5-tools
+
 https://gitlab.com/CalcProgrammer1/OpenRGB#arch
 
 flatpak install flathub org.openrgb.OpenRGB
