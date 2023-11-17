@@ -307,6 +307,19 @@ Asus ROG Strix X470-F GAMING:
 	RGB Header: unused
 	RGB Header 2: unused
 ```
+
+### Setup Gnome
+
+Setup Gnome Settings, Extension-Settings, Tweaks using Dconf:
+```
+curl -sSL https://raw.githubusercontent.com/TimLisemer/ArchInstall/main/dconf.txt | dconf load /
+```
+
+Store using Dconf:
+```
+dconf dump / >> dconf.txt
+```
+
 ### Setup KDE
 https://www.youtube.com/watch?v=kcOZ4wPZdxY&t
 https://www.youtube.com/watch?v=A0LiFu1eaMs&t
