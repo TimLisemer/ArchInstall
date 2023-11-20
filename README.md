@@ -141,8 +141,8 @@ sudo systemctl enable CommanderProStart --now
 sudo os-prober
 grub-mkconfig -o /boot/grub/grub.cfg
 xdg-settings set default-web-browser firefox.desktop
-sudo pacman -S packagekit-qt5 flatpak fwupd
-sudo pacman -S --needed base-devel
+sudo pacman -S packagekit-qt5 flatpak fwupd curl base-devel
+curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
 
 cd /tmp/
 git clone https://aur.archlinux.org/yay-git.git
