@@ -59,7 +59,20 @@ last-panel='mouse'
 window-state=(1002, 634, false)
 
 [org/gnome/desktop/app-folders]
-folder-children=['Utilities', 'YaST', 'Pardus']
+folder-children=['Utilities', 'YaST', 'Pardus', 'fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5', '2612b819-2b5f-4276-a20a-5fa1eaea2eff', '40df190f-bf6b-4c1d-b2cb-710d2048db31', '0b27850a-ef6f-4783-8cb1-40302d0ee1b4', 'f4237030-572d-43b6-b98a-2dc9bf754570']
+
+[org/gnome/desktop/app-folders/folders/0b27850a-ef6f-4783-8cb1-40302d0ee1b4]
+apps=['org.libreoffice.LibreOffice.math.desktop', 'org.libreoffice.LibreOffice.writer.desktop', 'org.libreoffice.LibreOffice.impress.desktop', 'md.obsidian.Obsidian.desktop', 'org.cvfosammmm.Setzer.desktop', 'org.libreoffice.LibreOffice.draw.desktop', 'org.libreoffice.LibreOffice.base.desktop', 'org.gnome.World.Iotas.desktop', 'org.libreoffice.LibreOffice.desktop', 'org.libreoffice.LibreOffice.calc.desktop']
+name='Office'
+
+[org/gnome/desktop/app-folders/folders/2612b819-2b5f-4276-a20a-5fa1eaea2eff]
+apps=['com.nextcloud.desktopclient.nextcloud.desktop', 'com.bitwarden.desktop.desktop', 'com.github.johnfactotum.Foliate.desktop', 'org.gnome.Music.desktop', 'io.github.mimbrero.WhatsAppDesktop.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'virtualbox.desktop']
+name='Apps'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/40df190f-bf6b-4c1d-b2cb-710d2048db31]
+apps=['designer.desktop', 'code-oss.desktop', 'jetbrains-toolbox.desktop', 'org.gnome.Builder.desktop', 'org.gnome.TextEditor.desktop', 're.sonny.Workbench.desktop', 'io.github.java_decompiler.jd-gui.desktop']
+name='Programming'
 
 [org/gnome/desktop/app-folders/folders/Pardus]
 categories=['X-Pardus-Apps']
@@ -67,7 +80,7 @@ name='X-Pardus-Apps.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop', 'gnome-system-monitor.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Weather.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Snapshot.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Maps.desktop', 'org.gnome.Calculator.desktop', 'simple-scan.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'ca.desrt.dconf-editor.desktop', 'org.fedoraproject.MediaWriter.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Boxes.desktop', 'io.github.Foldex.AdwSteamGtk.desktop', 'com.github.wwmm.easyeffects.desktop', 'com.github.tchx84.Flatseal.desktop', 'org.gnome.Tour.desktop', 'com.github.liferooter.textpieces.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 'org.pulseaudio.pavucontrol.desktop', 'org.pipewire.Helvum.desktop', 'org.raspberrypi.rpi-imager.desktop']
 categories=['X-GNOME-Utilities']
 name='X-GNOME-Utilities.directory'
 translate=true
@@ -76,6 +89,15 @@ translate=true
 categories=['X-SuSE-YaST']
 name='suse-yast.directory'
 translate=true
+
+[org/gnome/desktop/app-folders/folders/f4237030-572d-43b6-b98a-2dc9bf754570]
+apps=['com.heroicgameslauncher.hgl.desktop', 'net.lutris.Lutris.desktop']
+name='Games'
+
+[org/gnome/desktop/app-folders/folders/fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5]
+apps=['bvnc.desktop', 'bssh.desktop', 'yelp.desktop', 'org.gnome.Extensions.desktop', 'nvidia-settings.desktop', 'avahi-discover.desktop', 'qvidcap.desktop', 'qv4l2.desktop', 'lstopo.desktop', 'vim.desktop', 'electron25.desktop', 'jconsole-java-openjdk.desktop', 'jshell-java-openjdk.desktop', 'fish.desktop', 'assistant.desktop', 'linguist.desktop', 'qdbusviewer.desktop', 'nvim.desktop', 'htop.desktop', 'gvim.desktop']
+name='Junk'
+translate=false
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
@@ -326,7 +348,7 @@ last-folder-path='/home/tim/Games/Storage/Steam'
 sleep-inactive-ac-timeout=7200
 
 [org/gnome/shell]
-app-picker-layout=[{'org.gnome.Geary.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'bssh.desktop': <{'position': <5>}>, 'bvnc.desktop': <{'position': <6>}>, 'org.gnome.Totem.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'avahi-discover.desktop': <{'position': <9>}>, 'simple-scan.desktop': <{'position': <10>}>, 'org.gnome.Settings.desktop': <{'position': <11>}>, 'gnome-system-monitor.desktop': <{'position': <12>}>, 'com.bitwarden.desktop.desktop': <{'position': <13>}>, 'org.gnome.Terminal.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'org.gnome.Snapshot.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'org.gnome.Extensions.desktop': <{'position': <18>}>, 'lstopo.desktop': <{'position': <19>}>, 'com.nextcloud.desktopclient.nextcloud.desktop': <{'position': <20>}>, 'nvidia-settings.desktop': <{'position': <21>}>, 'qv4l2.desktop': <{'position': <22>}>, 'qvidcap.desktop': <{'position': <23>}>}, {'org.gnome.TextEditor.desktop': <{'position': <0>}>, 'org.gnome.Tour.desktop': <{'position': <1>}>, 'vim.desktop': <{'position': <2>}>, 'org.gnome.Epiphany.desktop': <{'position': <3>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <4>}>, 'com.discordapp.Discord.desktop': <{'position': <5>}>, 'code-oss.desktop': <{'position': <6>}>, 'electron25.desktop': <{'position': <7>}>, 'jetbrains-toolbox.desktop': <{'position': <8>}>, 'jconsole-java-openjdk.desktop': <{'position': <9>}>, 'jshell-java-openjdk.desktop': <{'position': <10>}>, 'fish.desktop': <{'position': <11>}>, 'assistant.desktop': <{'position': <12>}>, 'designer.desktop': <{'position': <13>}>, 'linguist.desktop': <{'position': <14>}>, 'qdbusviewer.desktop': <{'position': <15>}>, 'ckb-next.desktop': <{'position': <16>}>, 'jetbrains-pycharm-cde97794-b6d2-41aa-9549-f3e101ca1824.desktop': <{'position': <17>}>, 'jetbrains-rustrover-98f49aa2-9b57-43e5-ae27-057f32eb2bc7.desktop': <{'position': <18>}>, 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927.desktop': <{'position': <19>}>, 'org.gnome.Music.desktop': <{'position': <20>}>}]
+app-picker-layout=[{'2612b819-2b5f-4276-a20a-5fa1eaea2eff': <{'position': <0>}>, '40df190f-bf6b-4c1d-b2cb-710d2048db31': <{'position': <1>}>, 'f4237030-572d-43b6-b98a-2dc9bf754570': <{'position': <2>}>, '0b27850a-ef6f-4783-8cb1-40302d0ee1b4': <{'position': <3>}>, 'Utilities': <{'position': <4>}>, 'fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5': <{'position': <5>}>}]
 command-history=['r']
 disable-user-extensions=false
 disabled-extensions=['just-perfection-desktop@just-perfection', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'system-monitor-indicator@mknap.com', 'System_Monitor@bghome.gmail.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com']
@@ -370,7 +392,12 @@ storage-main='eui.0025385311907eb7-part2'
 application-list=['com.spotify.Client.desktop:2', 'discord.desktop:2']
 
 [org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover=true
+animate-appicon-hover-animation-convexity={'RIPPLE': 2.0, 'PLANK': 1.0, 'SIMPLE': 0.0}
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+animate-appicon-hover-animation-rotation={'SIMPLE': 0, 'RIPPLE': 10, 'PLANK': 0}
+animate-appicon-hover-animation-travel={'SIMPLE': 0.14999999999999999, 'RIPPLE': 0.40000000000000002, 'PLANK': 0.0}
+animate-appicon-hover-animation-type='SIMPLE'
 appicon-margin=8
 appicon-padding=4
 available-monitors=[0]
@@ -386,7 +413,9 @@ panel-lengths='{"0":100,"1":100,"2":100}'
 panel-sizes='{"0":40,"1":48,"2":40}'
 primary-monitor=0
 status-icon-padding=-1
+trans-panel-opacity=0.70000000000000007
 trans-use-custom-bg=false
+trans-use-custom-gradient=false
 trans-use-custom-opacity=true
 tray-padding=-1
 window-preview-title-position='TOP'
