@@ -55,7 +55,7 @@ panel-id='world'
 size=(870, 690)
 
 [org/gnome/control-center]
-last-panel='mouse'
+last-panel='info-overview'
 window-state=(1002, 634, false)
 
 [org/gnome/desktop/app-folders]
@@ -66,7 +66,7 @@ apps=['org.libreoffice.LibreOffice.math.desktop', 'org.libreoffice.LibreOffice.w
 name='Office'
 
 [org/gnome/desktop/app-folders/folders/2612b819-2b5f-4276-a20a-5fa1eaea2eff]
-apps=['com.nextcloud.desktopclient.nextcloud.desktop', 'com.bitwarden.desktop.desktop', 'com.github.johnfactotum.Foliate.desktop', 'org.gnome.Music.desktop', 'io.github.mimbrero.WhatsAppDesktop.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'virtualbox.desktop']
+apps=['com.nextcloud.desktopclient.nextcloud.desktop', 'com.bitwarden.desktop.desktop', 'com.github.johnfactotum.Foliate.desktop', 'org.gnome.Music.desktop', 'io.github.mimbrero.WhatsAppDesktop.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'virtualbox.desktop', 'OpenRGB.desktop']
 name='Apps'
 translate=false
 
@@ -91,7 +91,7 @@ name='suse-yast.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/f4237030-572d-43b6-b98a-2dc9bf754570]
-apps=['com.heroicgameslauncher.hgl.desktop', 'net.lutris.Lutris.desktop']
+apps=['com.heroicgameslauncher.hgl.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'Hearts of Iron IV.desktop', "Sid Meier's Civilization VI.desktop", 'Victoria 3.desktop']
 name='Games'
 
 [org/gnome/desktop/app-folders/folders/fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5]
@@ -400,7 +400,7 @@ animate-appicon-hover-animation-travel={'SIMPLE': 0.14999999999999999, 'RIPPLE':
 animate-appicon-hover-animation-type='SIMPLE'
 appicon-margin=8
 appicon-padding=4
-available-monitors=[0]
+available-monitors=[1, 0, 2]
 dot-position='BOTTOM'
 dot-style-focused='SQUARES'
 dot-style-unfocused='DOTS'
@@ -411,7 +411,7 @@ panel-element-positions='{"0":[{"element":"leftBox","visible":true,"position":"s
 panel-element-positions-monitors-sync=false
 panel-lengths='{"0":100,"1":100,"2":100}'
 panel-sizes='{"0":40,"1":48,"2":40}'
-primary-monitor=0
+primary-monitor=1
 status-icon-padding=-1
 trans-panel-opacity=0.70000000000000007
 trans-use-custom-bg=false
@@ -505,7 +505,7 @@ paste='<Primary>v'
 
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-transparency-percent=15
-default-size-rows=25
+default-size-rows=21
 use-transparent-background=true
 
 [org/gnome/tweaks]
