@@ -149,7 +149,7 @@ git clone https://aur.archlinux.org/yay-git.git
 cd yay-git
 makepkg -si
 
-yay -S gnome-browser-connector adw-gtk3-git mkinitcpio-firmware
+yay -S gnome-browser-connector adw-gtk3-git mkinitcpio-firmware minecraft-launcher
 
 sudo pacman -S a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv opus wavpack x264 x265 xvidcore
 sudo pacman -S adobe-source-han-sans-otc-fonts adobe-source-han-serif-otc-fonts noto-fonts noto-fonts-cjk noto-fonts-emoji
