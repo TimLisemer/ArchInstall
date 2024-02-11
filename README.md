@@ -122,6 +122,9 @@ sudo pacman -S archlinux-appstream-data
 pacman -Syy
 
 sudo ln -s /dev/null /etc/udev/rules.d/61-gdm.rules
+
+Add to /etc/enviroment
+MUTTER_DEBUG_KMS_THREAD_TYPE=user
 ```
 ## Setup Arch
 ### Setup fancontrol
