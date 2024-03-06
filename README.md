@@ -91,7 +91,7 @@ pacman -S sudo
 
 useradd -m tim
 passwd tim
-usermod -aG wheel,audio,video,storage tim
+usermod -aG wheel,audio,video,storage docker tim
 ```
 
 ```
