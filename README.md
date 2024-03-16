@@ -248,6 +248,14 @@ Jetbrains
 ```
 yay -S jetbrains-toolbox
 ```
+Arduino
+```
+sudo pacman -S arduino
+
+echo 'SUBSYSTEMS=="usb-serial", TAG+="uaccess"' | sudo tee -a /etc/udev/rules.d/01-ttyusb.rules >/dev/null
+sudo udevadm control --reload-rules
+```
+
 Docker
 ```
 pacman -S docker docker-compose
