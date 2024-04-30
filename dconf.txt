@@ -34,14 +34,24 @@ last-window-size=(652, 480)
 [org/gnome/GWeather4]
 temperature-unit='centigrade'
 
+[org/gnome/Geary]
+ask-open-attachment=true
+compose-as-html=true
+formatting-toolbar-visible=false
+migrated-config=true
+run-in-background=true
+window-height=1268
+window-maximize=true
+window-width=1720
+
 [org/gnome/Snapshot]
 is-maximized=false
 window-height=640
 window-width=800
 
 [org/gnome/Weather]
-locations=[<(uint32 2, <('Frankfurt', 'EDDF', true, [(0.87353729062316188, 0.15009831567151233)], [(0.874700849275589, 0.15155275089707676)])>)>]
-window-height=496
+locations=[<(uint32 2, <('Frankfurt', 'EDDF', false, [(0.87353729062316188, 0.15009831567151233)], @a(dd) [])>)>, <(uint32 2, <('Frankfurt', 'EDDF', true, [(0.87353729062316188, 0.15009831567151233)], [(0.874700849275589, 0.15155275089707676)])>)>]
+window-height=512
 window-maximized=false
 window-width=992
 
@@ -84,27 +94,23 @@ panel-id='world'
 size=(870, 690)
 
 [org/gnome/control-center]
-last-panel='online-accounts'
+last-panel='background'
 window-state=(1002, 634, false)
 
 [org/gnome/desktop/app-folders]
-folder-children=['Utilities', 'YaST', 'Pardus', 'fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5', '2612b819-2b5f-4276-a20a-5fa1eaea2eff', '40df190f-bf6b-4c1d-b2cb-710d2048db31', '0b27850a-ef6f-4783-8cb1-40302d0ee1b4', 'f4237030-572d-43b6-b98a-2dc9bf754570', '32fe076c-791e-4ea6-ae2a-7ae9ffdbc64b']
-
-[org/gnome/desktop/app-folders/folders/0b27850a-ef6f-4783-8cb1-40302d0ee1b4]
-apps=['org.libreoffice.LibreOffice.math.desktop', 'org.libreoffice.LibreOffice.writer.desktop', 'org.libreoffice.LibreOffice.impress.desktop', 'md.obsidian.Obsidian.desktop', 'org.cvfosammmm.Setzer.desktop', 'org.libreoffice.LibreOffice.draw.desktop', 'org.libreoffice.LibreOffice.base.desktop', 'org.gnome.World.Iotas.desktop', 'org.libreoffice.LibreOffice.desktop', 'org.libreoffice.LibreOffice.calc.desktop']
-name='Office'
+folder-children=['Utilities', 'YaST', 'Pardus', 'fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5', '2612b819-2b5f-4276-a20a-5fa1eaea2eff', '40df190f-bf6b-4c1d-b2cb-710d2048db31', 'f4237030-572d-43b6-b98a-2dc9bf754570', '32fe076c-791e-4ea6-ae2a-7ae9ffdbc64b']
 
 [org/gnome/desktop/app-folders/folders/2612b819-2b5f-4276-a20a-5fa1eaea2eff]
-apps=['com.nextcloud.desktopclient.nextcloud.desktop', 'com.bitwarden.desktop.desktop', 'com.github.johnfactotum.Foliate.desktop', 'org.gnome.Music.desktop', 'io.github.mimbrero.WhatsAppDesktop.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'virtualbox.desktop', 'OpenRGB.desktop', 'org.gnome.Rhythmbox3.desktop', 'org.gnome.Cheese.desktop', 'org.gnome.Software.desktop', 'io.podman_desktop.PodmanDesktop.desktop', 'com.github.marhkb.Pods.desktop']
+apps=['com.nextcloud.desktopclient.nextcloud.desktop', 'com.bitwarden.desktop.desktop', 'com.github.johnfactotum.Foliate.desktop', 'org.gnome.Music.desktop', 'io.github.mimbrero.WhatsAppDesktop.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'virtualbox.desktop', 'OpenRGB.desktop', 'org.gnome.Rhythmbox3.desktop', 'org.gnome.Cheese.desktop', 'org.gnome.Software.desktop', 'io.podman_desktop.PodmanDesktop.desktop', 'com.github.marhkb.Pods.desktop', 'com.google.Chrome.desktop', 'torbrowser.desktop', 'io.github.spacingbat3.webcord.desktop']
 name='Apps'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/32fe076c-791e-4ea6-ae2a-7ae9ffdbc64b]
-apps=['libreoffice-calc.desktop', 'libreoffice-writer.desktop', 'libreoffice-impress.desktop']
+apps=['libreoffice-calc.desktop', 'libreoffice-writer.desktop', 'libreoffice-impress.desktop', 'org.cvfosammmm.Setzer.desktop']
 name='Office'
 
 [org/gnome/desktop/app-folders/folders/40df190f-bf6b-4c1d-b2cb-710d2048db31]
-apps=['designer.desktop', 'code-oss.desktop', 'jetbrains-toolbox.desktop', 'org.gnome.Builder.desktop', 'org.gnome.TextEditor.desktop', 're.sonny.Workbench.desktop', 'io.github.java_decompiler.jd-gui.desktop', 'rustrover_rustrover.desktop', 'pycharm-educational_pycharm-educational.desktop', 'webstorm_webstorm.desktop', 'clion_clion.desktop', 'rider_rider.desktop', 'intellij-idea-community_intellij-idea-community.desktop', 'code_code.desktop', 'com.getpostman.Postman.desktop']
+apps=['designer.desktop', 'code-oss.desktop', 'jetbrains-toolbox.desktop', 'org.gnome.Builder.desktop', 'org.gnome.TextEditor.desktop', 're.sonny.Workbench.desktop', 'io.github.java_decompiler.jd-gui.desktop', 'rustrover_rustrover.desktop', 'pycharm-educational_pycharm-educational.desktop', 'webstorm_webstorm.desktop', 'clion_clion.desktop', 'rider_rider.desktop', 'intellij-idea-community_intellij-idea-community.desktop', 'code_code.desktop', 'com.getpostman.Postman.desktop', 'org.qt-project.qtcreator.desktop', 'com.jetbrains.CLion.desktop']
 name='Programming'
 
 [org/gnome/desktop/app-folders/folders/Pardus]
@@ -113,7 +119,7 @@ name='X-Pardus-Apps.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop', 'gnome-system-monitor.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Weather.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Snapshot.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Maps.desktop', 'org.gnome.Calculator.desktop', 'simple-scan.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'ca.desrt.dconf-editor.desktop', 'org.fedoraproject.MediaWriter.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Boxes.desktop', 'io.github.Foldex.AdwSteamGtk.desktop', 'com.github.wwmm.easyeffects.desktop', 'com.github.tchx84.Flatseal.desktop', 'com.github.liferooter.textpieces.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 'org.pulseaudio.pavucontrol.desktop', 'org.pipewire.Helvum.desktop', 'org.raspberrypi.rpi-imager.desktop']
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop', 'gnome-system-monitor.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Weather.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Snapshot.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Maps.desktop', 'org.gnome.Calculator.desktop', 'simple-scan.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'ca.desrt.dconf-editor.desktop', 'org.fedoraproject.MediaWriter.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Boxes.desktop', 'io.github.Foldex.AdwSteamGtk.desktop', 'com.github.wwmm.easyeffects.desktop', 'com.github.tchx84.Flatseal.desktop', 'com.github.liferooter.textpieces.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 'org.pulseaudio.pavucontrol.desktop', 'org.pipewire.Helvum.desktop', 'org.raspberrypi.rpi-imager.desktop', 'torbrowser-settings.desktop']
 categories=['X-GNOME-Utilities']
 excluded-apps=['org.gnome.Tour.desktop']
 name='X-GNOME-Utilities.directory'
@@ -125,7 +131,7 @@ name='suse-yast.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/f4237030-572d-43b6-b98a-2dc9bf754570]
-apps=['com.heroicgameslauncher.hgl.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'Hearts of Iron IV.desktop', "Sid Meier's Civilization VI.desktop", 'Victoria 3.desktop', 'minecraft-launcher.desktop', 'Farthest Frontier.desktop', 'Horizon Forbidden West Complete Edition.desktop']
+apps=['com.heroicgameslauncher.hgl.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'Hearts of Iron IV.desktop', "Sid Meier's Civilization VI.desktop", 'Victoria 3.desktop', 'minecraft-launcher.desktop', 'Farthest Frontier.desktop', 'Horizon Forbidden West Complete Edition.desktop', 'Stellaris.desktop', 'Europa Universalis IV.desktop']
 name='Games'
 
 [org/gnome/desktop/app-folders/folders/fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5]
@@ -140,6 +146,9 @@ picture-uri='file:///usr/share/backgrounds/gnome/blobs-l.svg'
 picture-uri-dark='file:///usr/share/backgrounds/gnome/blobs-d.svg'
 primary-color='#241f31'
 secondary-color='#000000'
+
+[org/gnome/desktop/datetime]
+automatic-timezone=false
 
 [org/gnome/desktop/input-sources]
 current=uint32 0
@@ -158,17 +167,32 @@ gtk-theme='adw-gtk3-dark'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'com-nextcloud-desktopclient-nextcloud', 'firefox', 'jetbrains-toolbox', 'org-gnome-geary', 'com-spotify-client', 'steam', 'com-discordapp-discord', 'gnome-power-panel', 'org-gnome-extensions-desktop', 'org-gnome-evolution', 'io-github-spacingbat3-webcord', 'org-gnome-settings', 'ckb-next', 'org-mozilla-thunderbird', 'com-ulduzsoft-birdtray', 'discord', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927', 'org-gnome-shell-extensions', 'org-gnome-boxes', 'webcord', 'org-gnome-nautilus', 'org-gnome-terminal', 'org-gnome-builder', 'org-gnome-shell-extensions-gsconnect', 'com-heroicgameslauncher-hgl', 'gnome-network-panel', 'me-kozec-syncthingtk', 'org-freedesktop-problems-applet', 'rustrover-rustrover', 'org-openrgb-openrgb', 'org-mozilla-firefox', 'webstorm-webstorm', 'io-snapcraft-sessionagent']
+application-children=['org-gnome-software', 'com-nextcloud-desktopclient-nextcloud', 'firefox', 'jetbrains-toolbox', 'org-gnome-geary', 'com-spotify-client', 'steam', 'com-discordapp-discord', 'gnome-power-panel', 'org-gnome-extensions-desktop', 'org-gnome-evolution', 'io-github-spacingbat3-webcord', 'org-gnome-settings', 'ckb-next', 'org-mozilla-thunderbird', 'com-ulduzsoft-birdtray', 'discord', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927', 'org-gnome-shell-extensions', 'org-gnome-boxes', 'webcord', 'org-gnome-nautilus', 'org-gnome-terminal', 'org-gnome-builder', 'org-gnome-shell-extensions-gsconnect', 'com-heroicgameslauncher-hgl', 'gnome-network-panel', 'me-kozec-syncthingtk', 'org-freedesktop-problems-applet', 'rustrover-rustrover', 'org-openrgb-openrgb', 'org-mozilla-firefox', 'webstorm-webstorm', 'io-snapcraft-sessionagent', 'code-code', 'clion-clion', 'org-gnome-texteditor', 'com-mattjakeman-extensionmanager-desktop', 'pycharm-professional-pycharm-professional', 'com-github-marhkb-pods', 'com-mattjakeman-extensionmanager']
 show-banners=true
 
 [org/gnome/desktop/notifications/application/ckb-next]
 application-id='ckb-next.desktop'
 
+[org/gnome/desktop/notifications/application/clion-clion]
+application-id='clion_clion.desktop'
+
+[org/gnome/desktop/notifications/application/code-code]
+application-id='code_code.desktop'
+
 [org/gnome/desktop/notifications/application/com-discordapp-discord]
 application-id='com.discordapp.Discord.desktop'
 
+[org/gnome/desktop/notifications/application/com-github-marhkb-pods]
+application-id='com.github.marhkb.Pods.desktop'
+
 [org/gnome/desktop/notifications/application/com-heroicgameslauncher-hgl]
 application-id='com.heroicgameslauncher.hgl.desktop'
+
+[org/gnome/desktop/notifications/application/com-mattjakeman-extensionmanager-desktop]
+application-id='com.mattjakeman.ExtensionManager.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/com-mattjakeman-extensionmanager]
+application-id='com.mattjakeman.ExtensionManager.desktop'
 
 [org/gnome/desktop/notifications/application/com-nextcloud-desktopclient-nextcloud]
 application-id='com.nextcloud.desktopclient.nextcloud.desktop'
@@ -263,6 +287,9 @@ application-id='org.gnome.Terminal.desktop'
 details-in-lock-screen=true
 force-expanded=true
 
+[org/gnome/desktop/notifications/application/org-gnome-texteditor]
+application-id='org.gnome.TextEditor.desktop'
+
 [org/gnome/desktop/notifications/application/org-mozilla-firefox]
 application-id='org.mozilla.firefox.desktop'
 
@@ -271,6 +298,9 @@ application-id='org.mozilla.Thunderbird.desktop'
 
 [org/gnome/desktop/notifications/application/org-openrgb-openrgb]
 application-id='org.openrgb.OpenRGB.desktop'
+
+[org/gnome/desktop/notifications/application/pycharm-professional-pycharm-professional]
+application-id='pycharm-professional_pycharm-professional.desktop'
 
 [org/gnome/desktop/notifications/application/rustrover-rustrover]
 application-id='rustrover_rustrover.desktop'
@@ -335,7 +365,7 @@ migrated=true
 
 [org/gnome/gnome-system-monitor]
 current-tab='processes'
-maximized=true
+maximized=false
 network-total-in-bits=false
 show-dependencies=false
 show-whose-processes='user'
@@ -360,6 +390,9 @@ center-new-windows=true
 dynamic-workspaces=true
 overlay-key='Super_L'
 workspaces-only-on-primary=true
+
+[org/gnome/nautilus/compression]
+default-compression-format='zip'
 
 [org/gnome/nautilus/icon-view]
 captions=['none', 'none', 'none']
@@ -390,8 +423,14 @@ last-folder-path='/home/tim/Games/Save Games'
 [org/gnome/portal/filechooser/firefox]
 last-folder-path='/home/tim/Pictures/Kagge'
 
+[org/gnome/portal/filechooser/io.gitlab.news_flash.NewsFlash]
+last-folder-path='/home/tim/Coding/Other/Rss'
+
 [org/gnome/portal/filechooser/md.obsidian.Obsidian]
 last-folder-path='/home/tim/.Nextcloud/Notes/Obsidian'
+
+[org/gnome/portal/filechooser/org.cvfosammmm.Setzer]
+last-folder-path='/home/tim/Documents/H_DA/latex/thesis-template'
 
 [org/gnome/portal/filechooser/org.gnome.Boxes]
 last-folder-path='/home/tim/Downloads'
@@ -406,17 +445,17 @@ last-folder-path='/home/tim/Downloads'
 last-folder-path='/home/tim/Games/Storage/Steam'
 
 [org/gnome/settings-daemon/plugins/color]
-night-light-last-coordinates=(50.031304756281081, 8.8811999999999998)
+night-light-last-coordinates=(50.027066055408248, 8.8811999999999998)
 
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=7200
 
 [org/gnome/shell]
-app-picker-layout=[{'2612b819-2b5f-4276-a20a-5fa1eaea2eff': <{'position': <0>}>, '40df190f-bf6b-4c1d-b2cb-710d2048db31': <{'position': <1>}>, '32fe076c-791e-4ea6-ae2a-7ae9ffdbc64b': <{'position': <2>}>, 'Utilities': <{'position': <3>}>, 'f4237030-572d-43b6-b98a-2dc9bf754570': <{'position': <4>}>, 'fish.desktop': <{'position': <5>}>, 'nvim.desktop': <{'position': <6>}>, 'Proton Hotfix.desktop': <{'position': <7>}>, 'Steam Linux Runtime 3.0 (sniper).desktop': <{'position': <8>}>, 'Proton Experimental.desktop': <{'position': <9>}>, 'syncthing-ui.desktop': <{'position': <10>}>, 'syncthing-start.desktop': <{'position': <11>}>, 'qt5-linguist.desktop': <{'position': <12>}>, 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop': <{'position': <13>}>, 'julia.desktop': <{'position': <14>}>, 'nvidia-settings.desktop': <{'position': <15>}>, 'yelp.desktop': <{'position': <16>}>, 'org.gnome.Tour.desktop': <{'position': <17>}>}]
+app-picker-layout=[{'2612b819-2b5f-4276-a20a-5fa1eaea2eff': <{'position': <0>}>, '40df190f-bf6b-4c1d-b2cb-710d2048db31': <{'position': <1>}>, '32fe076c-791e-4ea6-ae2a-7ae9ffdbc64b': <{'position': <2>}>, 'Utilities': <{'position': <3>}>, 'f4237030-572d-43b6-b98a-2dc9bf754570': <{'position': <4>}>}]
 command-history=['r']
 disable-user-extensions=false
 disabled-extensions=['just-perfection-desktop@just-perfection', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'system-monitor-indicator@mknap.com', 'System_Monitor@bghome.gmail.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com']
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'blur-my-shell@aunetx', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com', 'sp-tray@sp-tray.esenliyim.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'weatherornot@somepaulo.github.io', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'chatgpt-gnome-desktop@chatgpt-gnome-desktop', 'windowIsReady_Remover@nunofarruca@gmail.com', 'gsconnect@andyholmes.github.io', 'arch-update@RaphaelRochet', 'phi@ziyagenc.github.com', 'Resource_Monitor@Ory0n', 'monitor@astraext.github.io', 'gtk4-ding@smedius.gitlab.com', 'app-hider@lynith.dev']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'blur-my-shell@aunetx', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com', 'sp-tray@sp-tray.esenliyim.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'weatherornot@somepaulo.github.io', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'chatgpt-gnome-desktop@chatgpt-gnome-desktop', 'windowIsReady_Remover@nunofarruca@gmail.com', 'gsconnect@andyholmes.github.io', 'arch-update@RaphaelRochet', 'Resource_Monitor@Ory0n', 'monitor@astraext.github.io', 'gtk4-ding@smedius.gitlab.com', 'app-hider@lynith.dev', 'phi@ziyagenc.github.com']
 favorite-apps=['org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'com.spotify.Client.desktop', 'com.discordapp.Discord.desktop', 'steam.desktop', 'com.github.flxzt.rnote.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Terminal.desktop']
 welcome-dialog-last-shown-version='45.1'
 
@@ -445,7 +484,7 @@ override-menu-theme=true
 pinned-app-list=@as []
 pinned-apps=[{'name': 'Firefox Web Browser', 'icon': 'firefox', 'id': 'firefox.desktop'}, {'name': 'Spotify', 'icon': 'com.spotify.Client', 'id': 'com.spotify.Client.desktop'}, {'name': 'Discord', 'icon': 'discord', 'id': 'discord.desktop'}, {'name': 'Steam (Runtime)', 'icon': 'steam', 'id': 'steam.desktop'}, {'name': 'Heroic Games Launcher', 'icon': 'com.heroicgameslauncher.hgl', 'id': 'com.heroicgameslauncher.hgl.desktop'}, {'name': 'Bitwarden', 'icon': 'com.bitwarden.desktop', 'id': 'com.bitwarden.desktop.desktop'}, {'name': 'WhatsApp Desktop', 'icon': 'io.github.mimbrero.WhatsAppDesktop', 'id': 'io.github.mimbrero.WhatsAppDesktop.desktop'}, {'name': 'Geary', 'icon': 'org.gnome.Geary', 'id': 'org.gnome.Geary.desktop'}, {'name': 'Obsidian', 'icon': 'md.obsidian.Obsidian', 'id': 'md.obsidian.Obsidian.desktop'}, {'name': 'Rnote', 'icon': 'com.github.flxzt.rnote', 'id': 'com.github.flxzt.rnote.desktop'}, {'name': 'System Monitor', 'icon': 'org.gnome.SystemMonitor', 'id': 'gnome-system-monitor.desktop'}, {'name': 'Terminal', 'icon': 'org.gnome.Terminal', 'id': 'org.gnome.Terminal.desktop'}]
 prefs-visible-page=0
-recently-installed-apps=['electron25.desktop', 'jshell-java-openjdk.desktop', 'jconsole-java-openjdk.desktop', 'jetbrains-toolbox.desktop', 'fish.desktop', 'designer.desktop', 'cmake-gui.desktop', 'assistant.desktop', 'qdbusviewer.desktop', 'linguist.desktop', 'ckb-next.desktop', 'jetbrains-rustrover-98f49aa2-9b57-43e5-ae27-057f32eb2bc7.desktop', 'jetbrains-pycharm-cde97794-b6d2-41aa-9549-f3e101ca1824.desktop', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927.desktop', 'org.gnome.Geary.desktop', 'Victoria 3.desktop', 'Hearts of Iron IV.desktop', 'Counter-Strike 2.desktop', 'steam-native.desktop', 'gnome-nettool.desktop', 'org.gnome.MultiWriter.desktop', 'org.gnome.Usage.desktop', 'org.gnome.Console.desktop', 'org.gnome.Evolution.desktop', "Sid Meier's Civilization VI.desktop", 'Rocket League.desktop', 'org.pipewire.Helvum.desktop', 'Crusader Kings III.desktop', 'com.ulduzsoft.Birdtray.desktop', 'org.mozilla.Thunderbird.desktop', 'OpenRGB.desktop', 'com.jetbrains.toolbox-app.desktop', 'io.github.java_decompiler.jd-gui.desktop', 'ca.desrt.dconf-editor.desktop', 'com.jetbrains.PyCharm-Professional.desktop', 'jetbrains-clion-03277d21-fad5-45b6-b449-6d4486649237.desktop', 're.sonny.Workbench.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.World.PikaBackup.desktop', 'com.hunterwittenborn.Celeste.desktop', 'com.github.wwmm.easyeffects.desktop', 'virtualbox.desktop', 'ffado-mixer.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 're.sonny.Junction.desktop', 'htop.desktop', 'org.openrgb.OpenRGB.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'me.kozec.syncthingtk.desktop', 'com.nextcloud.desktopclient.nextcloud.desktop', 'minecraft-launcher.desktop', 'syncthing-ui.desktop', 'syncthing-start.desktop', 'nvim.desktop', 'steam.desktop', 'snap-store_snap-store.desktop', 'pycharm-educational_pycharm-educational.desktop', 'webstorm_webstorm.desktop', 'rider_rider.desktop', 'clion_clion.desktop', 'intellij-idea-community_intellij-idea-community.desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Horizon Forbidden West Complete Edition.desktop', 'Proton Hotfix.desktop', 'Proton Experimental.desktop', 'Farthest Frontier.desktop', 'com.github.flxzt.rnote.desktop', 'qt5-linguist.desktop', 'julia.desktop', 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop', 'com.github.marhkb.Pods.desktop']
+recently-installed-apps=['electron25.desktop', 'jshell-java-openjdk.desktop', 'jconsole-java-openjdk.desktop', 'jetbrains-toolbox.desktop', 'fish.desktop', 'designer.desktop', 'cmake-gui.desktop', 'assistant.desktop', 'qdbusviewer.desktop', 'linguist.desktop', 'ckb-next.desktop', 'jetbrains-rustrover-98f49aa2-9b57-43e5-ae27-057f32eb2bc7.desktop', 'jetbrains-pycharm-cde97794-b6d2-41aa-9549-f3e101ca1824.desktop', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927.desktop', 'org.gnome.Geary.desktop', 'Victoria 3.desktop', 'Hearts of Iron IV.desktop', 'Counter-Strike 2.desktop', 'steam-native.desktop', 'gnome-nettool.desktop', 'org.gnome.MultiWriter.desktop', 'org.gnome.Usage.desktop', 'org.gnome.Console.desktop', 'org.gnome.Evolution.desktop', "Sid Meier's Civilization VI.desktop", 'Rocket League.desktop', 'org.pipewire.Helvum.desktop', 'Crusader Kings III.desktop', 'com.ulduzsoft.Birdtray.desktop', 'org.mozilla.Thunderbird.desktop', 'OpenRGB.desktop', 'com.jetbrains.toolbox-app.desktop', 'io.github.java_decompiler.jd-gui.desktop', 'ca.desrt.dconf-editor.desktop', 'com.jetbrains.PyCharm-Professional.desktop', 'jetbrains-clion-03277d21-fad5-45b6-b449-6d4486649237.desktop', 're.sonny.Workbench.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.World.PikaBackup.desktop', 'com.hunterwittenborn.Celeste.desktop', 'com.github.wwmm.easyeffects.desktop', 'virtualbox.desktop', 'ffado-mixer.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 're.sonny.Junction.desktop', 'htop.desktop', 'org.openrgb.OpenRGB.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'me.kozec.syncthingtk.desktop', 'com.nextcloud.desktopclient.nextcloud.desktop', 'minecraft-launcher.desktop', 'syncthing-ui.desktop', 'syncthing-start.desktop', 'nvim.desktop', 'steam.desktop', 'snap-store_snap-store.desktop', 'pycharm-educational_pycharm-educational.desktop', 'webstorm_webstorm.desktop', 'rider_rider.desktop', 'intellij-idea-community_intellij-idea-community.desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Horizon Forbidden West Complete Edition.desktop', 'Proton Hotfix.desktop', 'Proton Experimental.desktop', 'Farthest Frontier.desktop', 'com.github.flxzt.rnote.desktop', 'qt5-linguist.desktop', 'julia.desktop', 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop', 'com.github.marhkb.Pods.desktop', 'Stellaris.desktop', 'Europa Universalis IV.desktop', 'torbrowser-settings.desktop', 'com.jetbrains.CLion.desktop', 'com.google.Chrome.desktop', 'io.github.spacingbat3.webcord.desktop', 'org.gnome.Snapshot.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'mupdf-gl.desktop', 'org.fontforge.FontForge.desktop', 'io.github.vectorgraphics.asymptote.desktop', 'org.inkscape.Inkscape.desktop']
 search-entry-border-radius=(true, 25)
 show-activities-button=false
 
@@ -460,6 +499,28 @@ storage-main='eui.0025385311907eb7-part2'
 
 [org/gnome/shell/extensions/auto-move-windows]
 application-list=['com.spotify.Client.desktop:2', 'discord.desktop:2']
+
+[org/gnome/shell/extensions/blur-my-shell]
+settings-version=2
+
+[org/gnome/shell/extensions/blur-my-shell/appfolder]
+brightness=0.59999999999999998
+sigma=30
+
+[org/gnome/shell/extensions/blur-my-shell/dash-to-dock]
+blur=true
+brightness=0.59999999999999998
+sigma=30
+static-blur=true
+style-dash-to-dock=0
+
+[org/gnome/shell/extensions/blur-my-shell/panel]
+brightness=0.59999999999999998
+sigma=30
+
+[org/gnome/shell/extensions/blur-my-shell/window-list]
+brightness=0.59999999999999998
+sigma=30
 
 [org/gnome/shell/extensions/dash-to-panel]
 animate-appicon-hover=true
@@ -572,21 +633,22 @@ position='clock-left'
 
 [org/gnome/shell/weather]
 automatic-location=true
-locations=[<(uint32 2, <('Frankfurt', 'EDDF', true, [(0.87353729062316188, 0.15009831567151233)], [(0.874700849275589, 0.15155275089707676)])>)>]
+locations=[<(uint32 2, <('Frankfurt', 'EDDF', false, [(0.87353729062316188, 0.15009831567151233)], @a(dd) [])>)>, <(uint32 2, <('Frankfurt', 'EDDF', true, [(0.87353729062316188, 0.15009831567151233)], [(0.874700849275589, 0.15155275089707676)])>)>]
 
 [org/gnome/shell/world-clocks]
 locations=[<(uint32 2, <('Los Angeles', 'KCQT', true, [(0.59370283970450188, -2.0644336110828618)], [(0.59432360095955872, -2.063741622941031)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('London', 'EGWU', true, [(0.89971722940307675, -0.007272211034407213)], [(0.89884456477707964, -0.0020362232784242244)])>)>, <(uint32 2, <('Moscow', 'UUWW', true, [(0.97127572873484425, 0.65042604039431762)], [(0.97305983920281813, 0.65651530216830811)])>)>]
 
 [org/gnome/software]
-check-timestamp=int64 1712406540
+check-timestamp=int64 1714474575
 first-run=false
-flatpak-purge-timestamp=int64 1712367193
-install-timestamp=int64 1712384281
-packagekit-historical-updates-timestamp=uint64 1712384281
-update-notification-timestamp=int64 1712406416
+flatpak-purge-timestamp=int64 1714356963
+install-timestamp=int64 1714020830
+packagekit-historical-updates-timestamp=uint64 1714020830
+update-notification-timestamp=int64 1714020987
+upgrade-notification-timestamp=int64 1713997422
 
 [org/gnome/system/location]
-enabled=true
+enabled=false
 
 [org/gnome/terminal/legacy/keybindings]
 paste='<Primary>v'
@@ -603,8 +665,8 @@ use-transparent-background=true
 show-extensions-notice=false
 
 [org/gtk/gtk4/settings/color-chooser]
-custom-colors=[(0.14117647707462311, 0.14117647707462311, 0.14117647707462311, 0.85333335399627686), (0.14117647707462311, 0.14117647707462311, 0.14117647707462311, 0.91333335638046265), (0.18823529779911041, 0.18823529779911041, 0.19215686619281769, 0.98000001907348633)]
-selected-color=(true, 0.14117647707462311, 0.14117647707462311, 0.14117647707462311, 0.85333335399627686)
+custom-colors=[(0.75, 0.25, 0.25, 1.0), (0.14117647707462311, 0.14117647707462311, 0.14117647707462311, 0.85333335399627686), (0.14117647707462311, 0.14117647707462311, 0.14117647707462311, 0.91333335638046265), (0.18823529779911041, 0.18823529779911041, 0.19215686619281769, 0.98000001907348633)]
+selected-color=(true, 0.38431373238563538, 0.62745100259780884, 0.91764706373214722, 1.0)
 
 [org/gtk/gtk4/settings/emoji-chooser]
 recent-emoji=[(([uint32 128516], 'grinning face with smiling eyes', ['eye', 'face', 'mouth', 'open', 'smile'], uint32 0), uint32 0)]
@@ -636,3 +698,6 @@ sort-order='ascending'
 type-format='category'
 window-position=(2599, 222)
 window-size=(1203, 902)
+
+[system/locale]
+region='de_DE.UTF-8'
