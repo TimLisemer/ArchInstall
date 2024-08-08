@@ -11,12 +11,6 @@ gpudeviceslist=['GPU-3e205fd2-b31f-a112-19af-bf375659fe37:NVIDIA GeForce RTX 306
 thermalcputemperaturedeviceslist=['k10temp: Tctl-false-/sys/class/hwmon/hwmon2/temp1_input', 'k10temp: Tccd1-false-/sys/class/hwmon/hwmon2/temp3_input']
 thermalgputemperaturedeviceslist=['GPU-3e205fd2-b31f-a112-19af-bf375659fe37:NVIDIA GeForce RTX 3060 Ti:false']
 
-[com/github/tchx84/Flatseal]
-selected-app-id='com.discordapp.Discord'
-window-height=768
-window-maximized=false
-window-width=1024
-
 [com/github/wwmm/easyeffects]
 last-used-input-preset='Presets'
 last-used-output-preset='Presets'
@@ -46,9 +40,9 @@ compose-as-html=true
 formatting-toolbar-visible=false
 migrated-config=true
 run-in-background=true
-window-height=1330
+window-height=1268
 window-maximize=true
-window-width=1990
+window-width=1720
 
 [org/gnome/Snapshot]
 is-maximized=false
@@ -56,13 +50,19 @@ window-height=640
 window-width=800
 
 [org/gnome/TextEditor]
-last-save-directory='file:///home/tim/Downloads'
+last-save-directory='file:///home/tim/Documents/H_DA/10.Semester/ASP'
 
 [org/gnome/Weather]
 locations=[<(uint32 2, <('Frankfurt', 'EDDF', false, [(0.87353729062316188, 0.15009831567151233)], @a(dd) [])>)>, <(uint32 2, <('Frankfurt', 'EDDF', true, [(0.87353729062316188, 0.15009831567151233)], [(0.874700849275589, 0.15155275089707676)])>)>]
 window-height=512
 window-maximized=false
 window-width=992
+
+[org/gnome/boxes]
+first-run=false
+shared-folders="[<{'uuid': <'fde80012-ca98-4729-950c-d78bc1c51bda'>, 'path': <'/home/tim/Public'>, 'name': <'hmi'>}>]"
+view='icon-view'
+window-maximized=true
 
 [org/gnome/calculator]
 accuracy=9
@@ -103,23 +103,23 @@ panel-id='world'
 size=(870, 690)
 
 [org/gnome/control-center]
-last-panel='display'
-window-state=(1092, 785, false)
+last-panel='wifi'
+window-state=(1002, 634, false)
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST', 'Pardus', 'fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5', '2612b819-2b5f-4276-a20a-5fa1eaea2eff', '40df190f-bf6b-4c1d-b2cb-710d2048db31', 'f4237030-572d-43b6-b98a-2dc9bf754570', '32fe076c-791e-4ea6-ae2a-7ae9ffdbc64b']
 
 [org/gnome/desktop/app-folders/folders/2612b819-2b5f-4276-a20a-5fa1eaea2eff]
-apps=['com.nextcloud.desktopclient.nextcloud.desktop', 'com.bitwarden.desktop.desktop', 'com.github.johnfactotum.Foliate.desktop', 'org.gnome.Music.desktop', 'io.github.mimbrero.WhatsAppDesktop.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'virtualbox.desktop', 'OpenRGB.desktop', 'org.gnome.Rhythmbox3.desktop', 'org.gnome.Cheese.desktop', 'org.gnome.Software.desktop', 'io.podman_desktop.PodmanDesktop.desktop', 'com.github.marhkb.Pods.desktop', 'com.google.Chrome.desktop', 'torbrowser.desktop', 'io.github.spacingbat3.webcord.desktop', 'org.gnome.SystemMonitor.desktop', 'org.torproject.torbrowser-launcher.desktop', 'steam.desktop', 'com.mastermindzh.tidal-hifi.desktop']
+apps=['com.nextcloud.desktopclient.nextcloud.desktop', 'com.bitwarden.desktop.desktop', 'com.github.johnfactotum.Foliate.desktop', 'org.gnome.Music.desktop', 'io.github.mimbrero.WhatsAppDesktop.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'virtualbox.desktop', 'OpenRGB.desktop', 'org.gnome.Rhythmbox3.desktop', 'org.gnome.Cheese.desktop', 'org.gnome.Software.desktop', 'io.podman_desktop.PodmanDesktop.desktop', 'com.github.marhkb.Pods.desktop', 'com.google.Chrome.desktop', 'torbrowser.desktop', 'io.github.spacingbat3.webcord.desktop', 'org.gnome.SystemMonitor.desktop', 'org.gnome.Terminal.desktop', 'org.torproject.torbrowser-launcher.desktop', 'org.filezillaproject.Filezilla.desktop', 'org.wireshark.Wireshark.desktop', 'steam.desktop']
 name='Apps'
 translate=false
 
 [org/gnome/desktop/app-folders/folders/32fe076c-791e-4ea6-ae2a-7ae9ffdbc64b]
-apps=['libreoffice-calc.desktop', 'libreoffice-writer.desktop', 'libreoffice-impress.desktop', 'org.cvfosammmm.Setzer.desktop', 'org.gnome.TextEditor.desktop', 'org.inkscape.Inkscape.desktop']
+apps=['libreoffice-calc.desktop', 'libreoffice-writer.desktop', 'libreoffice-impress.desktop', 'org.cvfosammmm.Setzer.desktop']
 name='Office'
 
 [org/gnome/desktop/app-folders/folders/40df190f-bf6b-4c1d-b2cb-710d2048db31]
-apps=['designer.desktop', 'code-oss.desktop', 'jetbrains-toolbox.desktop', 'org.gnome.Builder.desktop', 're.sonny.Workbench.desktop', 'io.github.java_decompiler.jd-gui.desktop', 'rustrover_rustrover.desktop', 'pycharm-educational_pycharm-educational.desktop', 'webstorm_webstorm.desktop', 'clion_clion.desktop', 'rider_rider.desktop', 'intellij-idea-community_intellij-idea-community.desktop', 'code_code.desktop', 'com.getpostman.Postman.desktop', 'org.qt-project.qtcreator.desktop', 'com.jetbrains.CLion.desktop', 'jetbrains-rustrover-df303abb-0d31-405b-8af1-4762717d4815.desktop', 'jetbrains-clion-20b387bf-051c-4534-87a4-f57aeeb6c5a0.desktop', 'jetbrains-idea-da9cb7e8-a996-4a66-8a32-730dd7cffbe2.desktop', 'jetbrains-pycharm-8057d945-aadc-4618-ab06-fd348021d403.desktop', 'code.desktop']
+apps=['designer.desktop', 'code-oss.desktop', 'jetbrains-toolbox.desktop', 'org.gnome.Builder.desktop', 'org.gnome.TextEditor.desktop', 're.sonny.Workbench.desktop', 'io.github.java_decompiler.jd-gui.desktop', 'rustrover_rustrover.desktop', 'pycharm-educational_pycharm-educational.desktop', 'webstorm_webstorm.desktop', 'clion_clion.desktop', 'rider_rider.desktop', 'intellij-idea-community_intellij-idea-community.desktop', 'code_code.desktop', 'com.getpostman.Postman.desktop', 'org.qt-project.qtcreator.desktop', 'com.jetbrains.CLion.desktop', 'jetbrains-rustrover-16ae9fbc-8f5b-40aa-8ada-3541e1f0b9c0.desktop', 'jetbrains-clion-6673f66e-4d53-4548-978b-ce7ac149fccc.desktop', 'jetbrains-pycharm-c01176c4-5b28-4d59-a26f-3ea4bf571674.desktop', 'jetbrains-idea-01365754-38bc-43a2-bdde-e74cdd39b108.desktop', 'code.desktop', 'jetbrains-rustrover-3455ac52-734e-49f6-9674-63a2b1f65830.desktop', 'jetbrains-idea-cae8d121-cc28-4b31-beba-27bf42337153.desktop', 'jetbrains-pycharm-553a934d-fc63-46cb-ba01-3c6914b4133a.desktop', 'jetbrains-clion-a1a93c49-9115-4bc7-ae84-a4740bf4efb4.desktop', 'jetbrains-clion-1309bbd9-5d08-4507-8532-25809e775b8a.desktop', 'jetbrains-idea-995f00b7-d631-424d-aaf1-95098355a19c.desktop', 'jetbrains-pycharm-ff6fcfa0-53b5-41a3-96cd-d2c8890e9922.desktop', 'jetbrains-rustrover-d61ab101-1905-41e4-9f74-e9120a0f7b00.desktop']
 name='Programming'
 
 [org/gnome/desktop/app-folders/folders/Pardus]
@@ -128,7 +128,7 @@ name='X-Pardus-Apps.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop', 'gnome-system-monitor.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Weather.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Snapshot.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Maps.desktop', 'org.gnome.Calculator.desktop', 'simple-scan.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'ca.desrt.dconf-editor.desktop', 'org.fedoraproject.MediaWriter.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Boxes.desktop', 'io.github.Foldex.AdwSteamGtk.desktop', 'com.github.wwmm.easyeffects.desktop', 'com.github.tchx84.Flatseal.desktop', 'com.github.liferooter.textpieces.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 'org.pulseaudio.pavucontrol.desktop', 'org.pipewire.Helvum.desktop', 'org.raspberrypi.rpi-imager.desktop', 'torbrowser-settings.desktop', 'timeshift-gtk.desktop', 'it.mijorus.gearlever.desktop', 'org.openrgb.OpenRGB.desktop', 'Proton 9.0.desktop', 'org.torproject.torbrowser-launcher.settings.desktop', 'btop.desktop']
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop', 'gnome-system-monitor.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Weather.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Snapshot.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.clocks.desktop', 'org.gnome.Maps.desktop', 'org.gnome.Calculator.desktop', 'simple-scan.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'ca.desrt.dconf-editor.desktop', 'org.fedoraproject.MediaWriter.desktop', 'org.gnome.Epiphany.desktop', 'org.gnome.Boxes.desktop', 'io.github.Foldex.AdwSteamGtk.desktop', 'com.github.wwmm.easyeffects.desktop', 'com.github.tchx84.Flatseal.desktop', 'com.github.liferooter.textpieces.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 'org.pulseaudio.pavucontrol.desktop', 'org.pipewire.Helvum.desktop', 'org.raspberrypi.rpi-imager.desktop', 'torbrowser-settings.desktop']
 categories=['X-GNOME-Utilities']
 excluded-apps=['org.gnome.Tour.desktop']
 name='X-GNOME-Utilities.directory'
@@ -140,7 +140,7 @@ name='suse-yast.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/f4237030-572d-43b6-b98a-2dc9bf754570]
-apps=['com.heroicgameslauncher.hgl.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'Hearts of Iron IV.desktop', "Sid Meier's Civilization VI.desktop", 'Victoria 3.desktop', 'minecraft-launcher.desktop', 'Farthest Frontier.desktop', 'Horizon Forbidden West Complete Edition.desktop', 'Stellaris.desktop', 'Europa Universalis IV.desktop', 'Grand Theft Auto V.desktop', 'Counter-Strike 2.desktop', 'Total War PHARAOH.desktop']
+apps=['com.heroicgameslauncher.hgl.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'Hearts of Iron IV.desktop', "Sid Meier's Civilization VI.desktop", 'Victoria 3.desktop', 'minecraft-launcher.desktop', 'Farthest Frontier.desktop', 'Horizon Forbidden West Complete Edition.desktop', 'Stellaris.desktop', 'Europa Universalis IV.desktop', 'Total War PHARAOH.desktop', 'Counter-Strike 2.desktop', 'Grand Theft Auto V.desktop', 'Factorio.desktop']
 name='Games'
 
 [org/gnome/desktop/app-folders/folders/fb9d8e27-e2fe-4ccd-adca-b7f0fb2799e5]
@@ -176,8 +176,8 @@ gtk-theme='adw-gtk3-dark'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'com-nextcloud-desktopclient-nextcloud', 'firefox', 'jetbrains-toolbox', 'org-gnome-geary', 'com-spotify-client', 'steam', 'com-discordapp-discord', 'gnome-power-panel', 'org-gnome-extensions-desktop', 'org-gnome-evolution', 'io-github-spacingbat3-webcord', 'org-gnome-settings', 'ckb-next', 'org-mozilla-thunderbird', 'com-ulduzsoft-birdtray', 'discord', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927', 'org-gnome-shell-extensions', 'org-gnome-boxes', 'webcord', 'org-gnome-nautilus', 'org-gnome-terminal', 'org-gnome-builder', 'org-gnome-shell-extensions-gsconnect', 'com-heroicgameslauncher-hgl', 'gnome-network-panel', 'me-kozec-syncthingtk', 'org-freedesktop-problems-applet', 'rustrover-rustrover', 'org-openrgb-openrgb', 'org-mozilla-firefox', 'webstorm-webstorm', 'io-snapcraft-sessionagent', 'code-code', 'clion-clion', 'org-gnome-texteditor', 'com-mattjakeman-extensionmanager-desktop', 'pycharm-professional-pycharm-professional', 'com-github-marhkb-pods', 'com-mattjakeman-extensionmanager', 'io-github-foldex-adwsteamgtk', 'jetbrains-rustrover-df303abb-0d31-405b-8af1-4762717d4815', 'jetbrains-idea-da9cb7e8-a996-4a66-8a32-730dd7cffbe2', 'org-gnome-evolution-alarm-notify', 'org-torproject-torbrowser-launcher', 'org-gnome-rhythmbox3', 'org-gnome-calendar']
-show-banners=true
+application-children=['org-gnome-software', 'com-nextcloud-desktopclient-nextcloud', 'firefox', 'jetbrains-toolbox', 'org-gnome-geary', 'com-spotify-client', 'steam', 'com-discordapp-discord', 'gnome-power-panel', 'org-gnome-extensions-desktop', 'org-gnome-evolution', 'io-github-spacingbat3-webcord', 'org-gnome-settings', 'ckb-next', 'org-mozilla-thunderbird', 'com-ulduzsoft-birdtray', 'discord', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927', 'org-gnome-shell-extensions', 'org-gnome-boxes', 'webcord', 'org-gnome-nautilus', 'org-gnome-terminal', 'org-gnome-builder', 'org-gnome-shell-extensions-gsconnect', 'com-heroicgameslauncher-hgl', 'gnome-network-panel', 'me-kozec-syncthingtk', 'org-freedesktop-problems-applet', 'rustrover-rustrover', 'org-openrgb-openrgb', 'org-mozilla-firefox', 'webstorm-webstorm', 'io-snapcraft-sessionagent', 'code-code', 'clion-clion', 'org-gnome-texteditor', 'com-mattjakeman-extensionmanager-desktop', 'pycharm-professional-pycharm-professional', 'com-github-marhkb-pods', 'com-mattjakeman-extensionmanager', 'org-qt-project-qtcreator', 'org-gnome-calendar', 'org-cvfosammmm-setzer', 'jetbrains-rustrover-16ae9fbc-8f5b-40aa-8ada-3541e1f0b9c0', 'org-gnome-evolution-alarm-notify', 'jetbrains-idea-01365754-38bc-43a2-bdde-e74cdd39b108', 'com-raggesilver-blackbox', 'jetbrains-clion-6673f66e-4d53-4548-978b-ce7ac149fccc', 'org-torproject-torbrowser-launcher', 'org-wireshark-wireshark', 'org-filezillaproject-filezilla', 'jetbrains-rustrover-d61ab101-1905-41e4-9f74-e9120a0f7b00', 'org-fedoraproject-mediawriter']
+show-banners=false
 
 [org/gnome/desktop/notifications/application/ckb-next]
 application-id='ckb-next.desktop'
@@ -207,6 +207,9 @@ application-id='com.mattjakeman.ExtensionManager.desktop'
 application-id='com.nextcloud.desktopclient.nextcloud.desktop'
 enable=false
 
+[org/gnome/desktop/notifications/application/com-raggesilver-blackbox]
+application-id='com.raggesilver.BlackBox.desktop'
+
 [org/gnome/desktop/notifications/application/com-spotify-client]
 application-id='com.spotify.Client.desktop'
 enable=false
@@ -231,23 +234,26 @@ application-id='gnome-network-panel.desktop'
 [org/gnome/desktop/notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
 
-[org/gnome/desktop/notifications/application/io-github-foldex-adwsteamgtk]
-application-id='io.github.Foldex.AdwSteamGtk.desktop'
-
 [org/gnome/desktop/notifications/application/io-github-spacingbat3-webcord]
 application-id='io.github.spacingbat3.webcord.desktop'
 
 [org/gnome/desktop/notifications/application/io-snapcraft-sessionagent]
 application-id='io.snapcraft.SessionAgent.desktop'
 
+[org/gnome/desktop/notifications/application/jetbrains-clion-6673f66e-4d53-4548-978b-ce7ac149fccc]
+application-id='jetbrains-clion-6673f66e-4d53-4548-978b-ce7ac149fccc.desktop'
+
 [org/gnome/desktop/notifications/application/jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927]
 application-id='jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927.desktop'
 
-[org/gnome/desktop/notifications/application/jetbrains-idea-da9cb7e8-a996-4a66-8a32-730dd7cffbe2]
-application-id='jetbrains-idea-da9cb7e8-a996-4a66-8a32-730dd7cffbe2.desktop'
+[org/gnome/desktop/notifications/application/jetbrains-idea-01365754-38bc-43a2-bdde-e74cdd39b108]
+application-id='jetbrains-idea-01365754-38bc-43a2-bdde-e74cdd39b108.desktop'
 
-[org/gnome/desktop/notifications/application/jetbrains-rustrover-df303abb-0d31-405b-8af1-4762717d4815]
-application-id='jetbrains-rustrover-df303abb-0d31-405b-8af1-4762717d4815.desktop'
+[org/gnome/desktop/notifications/application/jetbrains-rustrover-16ae9fbc-8f5b-40aa-8ada-3541e1f0b9c0]
+application-id='jetbrains-rustrover-16ae9fbc-8f5b-40aa-8ada-3541e1f0b9c0.desktop'
+
+[org/gnome/desktop/notifications/application/jetbrains-rustrover-d61ab101-1905-41e4-9f74-e9120a0f7b00]
+application-id='jetbrains-rustrover-d61ab101-1905-41e4-9f74-e9120a0f7b00.desktop'
 
 [org/gnome/desktop/notifications/application/jetbrains-toolbox]
 application-id='jetbrains-toolbox.desktop'
@@ -256,6 +262,15 @@ force-expanded=true
 
 [org/gnome/desktop/notifications/application/me-kozec-syncthingtk]
 application-id='me.kozec.syncthingtk.desktop'
+
+[org/gnome/desktop/notifications/application/org-cvfosammmm-setzer]
+application-id='org.cvfosammmm.Setzer.desktop'
+
+[org/gnome/desktop/notifications/application/org-fedoraproject-mediawriter]
+application-id='org.fedoraproject.MediaWriter.desktop'
+
+[org/gnome/desktop/notifications/application/org-filezillaproject-filezilla]
+application-id='org.filezillaproject.Filezilla.desktop'
 
 [org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
 application-id='org.freedesktop.problems.applet.desktop'
@@ -292,9 +307,6 @@ force-expanded=true
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
 
-[org/gnome/desktop/notifications/application/org-gnome-rhythmbox3]
-application-id='org.gnome.Rhythmbox3.desktop'
-
 [org/gnome/desktop/notifications/application/org-gnome-settings]
 application-id='org.gnome.Settings.desktop'
 
@@ -326,8 +338,14 @@ application-id='org.mozilla.Thunderbird.desktop'
 [org/gnome/desktop/notifications/application/org-openrgb-openrgb]
 application-id='org.openrgb.OpenRGB.desktop'
 
+[org/gnome/desktop/notifications/application/org-qt-project-qtcreator]
+application-id='org.qt-project.qtcreator.desktop'
+
 [org/gnome/desktop/notifications/application/org-torproject-torbrowser-launcher]
 application-id='org.torproject.torbrowser-launcher.desktop'
+
+[org/gnome/desktop/notifications/application/org-wireshark-wireshark]
+application-id='org.wireshark.Wireshark.desktop'
 
 [org/gnome/desktop/notifications/application/pycharm-professional-pycharm-professional]
 application-id='pycharm-professional_pycharm-professional.desktop'
@@ -349,7 +367,7 @@ force-expanded=true
 application-id='webstorm_webstorm.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=true
+numlock-state=false
 
 [org/gnome/desktop/peripherals/mouse]
 accel-profile='flat'
@@ -371,10 +389,6 @@ picture-uri='file:///usr/share/backgrounds/gnome/blobs-l.svg'
 primary-color='#241f31'
 secondary-color='#000000'
 
-[org/gnome/desktop/search-providers]
-disabled=['org.gnome.Contacts.desktop']
-sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
-
 [org/gnome/desktop/session]
 idle-delay=uint32 900
 
@@ -384,29 +398,25 @@ ask-for-default=false
 [org/gnome/evince/default]
 continuous=true
 dual-page=false
-dual-page-odd-left=false
+dual-page-odd-left=true
 enable-spellchecking=true
 fullscreen=false
 inverted-colors=false
 show-sidebar=true
 sidebar-page='thumbnails'
 sidebar-size=148
-sizing-mode='automatic'
-window-ratio=(1.0314473861040181, 0.71268217938210454)
+sizing-mode='free'
+window-ratio=(1.0079290417954574, 0.71268217938210454)
+zoom=0.5
 
 [org/gnome/evolution-data-server]
 migrated=true
 
 [org/gnome/evolution-data-server/calendar]
-notify-window-height=280
-notify-window-paned-position=48
-notify-window-width=172
-notify-window-x=0
-notify-window-y=0
-reminders-past=['6487a76ee75df81108f09858ef3a301381107358\nab090962eeb81c72a1f4a63b445538d7870e12a4\t20240707T120000\n1720344600\n1720346400\n1720350000\nBEGIN:VEVENT\r\nDTSTART;TZID=Europe/Berlin:20240707T120000\r\nDTEND;TZID=Europe/Berlin:20240707T130000\r\nDTSTAMP:20240618T182722Z\r\nUID:\r\n ccrjcdr460rj6b9g6kqjgb9k71h3gbb1cos3ib9pcdgjep1gc5ijcp34c8@google.com\r\nCREATED:20240515T041718Z\r\nDESCRIPTION:\r\nLAST-MODIFIED:20240618T182722Z\r\nLOCATION:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Wai2 Abgabe Full Paper\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63854418442\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT30M\r\nX-EVOLUTION-ALARM-UID:ab090962eeb81c72a1f4a63b445538d7870e12a4\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+reminders-past=@as []
 
 [org/gnome/gnome-system-monitor]
-current-tab='processes'
+current-tab='resources'
 maximized=false
 network-total-in-bits=false
 show-dependencies=false
@@ -418,9 +428,9 @@ col-6-visible=true
 col-6-width=0
 
 [org/gnome/gnome-system-monitor/proctree]
-columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 7]
-sort-col=15
-sort-order=0
+columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=26
+sort-order=1
 
 [org/gnome/login-screen]
 enable-fingerprint-authentication=true
@@ -430,7 +440,6 @@ enable-smartcard-authentication=false
 [org/gnome/mutter]
 center-new-windows=true
 dynamic-workspaces=true
-edge-tiling=true
 overlay-key='Super_L'
 workspaces-only-on-primary=true
 
@@ -450,12 +459,12 @@ show-create-link=true
 initial-size=(1156, 695)
 maximized=false
 
-[org/gnome/nm-applet/eap/2907d563-7db0-4bd6-b073-698b331a3de5]
+[org/gnome/nm-applet/eap/5a9361ad-da73-4522-808e-1fa1c685a2ae]
 ignore-ca-cert=false
 ignore-phase2-ca-cert=false
 
-[org/gnome/nm-applet/eap/5a9361ad-da73-4522-808e-1fa1c685a2ae]
-ignore-ca-cert=false
+[org/gnome/nm-applet/eap/69852dd1-44e8-4d31-80ea-c93671d63999]
+ignore-ca-cert=true
 ignore-phase2-ca-cert=false
 
 [org/gnome/portal/filechooser/com.discordapp.Discord]
@@ -477,7 +486,7 @@ last-folder-path='/home/tim/Coding/Other/Rss'
 last-folder-path='/home/tim/.Nextcloud/Notes/Obsidian'
 
 [org/gnome/portal/filechooser/org.cvfosammmm.Setzer]
-last-folder-path='/home/tim/Documents/H_DA/10.Semester/wai2/short-paper/chapters/recommendations'
+last-folder-path='/home/tim/Documents/H_DA/10.Semester/wai2/short-paper'
 
 [org/gnome/portal/filechooser/org.gnome.Boxes]
 last-folder-path='/home/tim/Downloads'
@@ -491,48 +500,25 @@ last-folder-path='/home/tim/Downloads'
 [org/gnome/portal/filechooser/steam]
 last-folder-path='/home/tim/Games/Storage/Steam'
 
-[org/gnome/rhythmbox]
-position=(752, 619)
-
-[org/gnome/rhythmbox/player]
-volume=0.9999847412109375
-
-[org/gnome/rhythmbox/plugins]
-active-plugins=['rb', 'power-manager', 'notification', 'mtpdevice', 'mpris', 'iradio', 'ipod', 'generic-player', 'dbus-media-server', 'cd-recorder', 'audioscrobbler', 'audiocd', 'android', 'artsearch']
-seen-plugins=['rb', 'webremote', 'replaygain', 'rbzeitgeist', 'pythonconsole', 'notification', 'mtpdevice', 'ipod', 'grilo', 'fmradio', 'dbus-media-server', 'daap', 'cd-recorder', 'audioscrobbler', 'artsearch', 'im-status', 'listenbrainz', 'lyrics', 'magnatune']
-
-[org/gnome/rhythmbox/plugins/audioscrobbler/Last.fm]
-scrobbling-enabled=true
-
-[org/gnome/rhythmbox/plugins/audioscrobbler/Libre.fm]
-scrobbling-enabled=true
-
-[org/gnome/rhythmbox/plugins/iradio]
-initial-stations-loaded=true
-
-[org/gnome/rhythmbox/rhythmdb]
-locations=['file:///home/tim/Music']
-
 [org/gnome/settings-daemon/plugins/color]
 night-light-last-coordinates=(50.027066055408248, 8.8811999999999998)
 
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=7200
-sleep-inactive-ac-type='suspend'
 
 [org/gnome/shell]
 app-picker-layout=[{'2612b819-2b5f-4276-a20a-5fa1eaea2eff': <{'position': <0>}>, '40df190f-bf6b-4c1d-b2cb-710d2048db31': <{'position': <1>}>, '32fe076c-791e-4ea6-ae2a-7ae9ffdbc64b': <{'position': <2>}>, 'Utilities': <{'position': <3>}>, 'f4237030-572d-43b6-b98a-2dc9bf754570': <{'position': <4>}>}]
 command-history=['r']
 disable-user-extensions=false
-disabled-extensions=['just-perfection-desktop@just-perfection', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'system-monitor-indicator@mknap.com', 'System_Monitor@bghome.gmail.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'pop-shell@system76.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'background-logo@fedorahosted.org', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'arcmenu@arcmenu.com']
+disabled-extensions=['just-perfection-desktop@just-perfection', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'system-monitor-indicator@mknap.com', 'System_Monitor@bghome.gmail.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'arcmenu@arcmenu.com']
 enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com', 'sp-tray@sp-tray.esenliyim.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'weatherornot@somepaulo.github.io', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'chatgpt-gnome-desktop@chatgpt-gnome-desktop', 'windowIsReady_Remover@nunofarruca@gmail.com', 'gsconnect@andyholmes.github.io', 'arch-update@RaphaelRochet', 'Resource_Monitor@Ory0n', 'monitor@astraext.github.io', 'gtk4-ding@smedius.gitlab.com', 'app-hider@lynith.dev', 'phi@ziyagenc.github.com']
-favorite-apps=['org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'com.spotify.Client.desktop', 'com.discordapp.Discord.desktop', 'com.github.flxzt.rnote.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Terminal.desktop']
-remember-mount-password=true
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.spotify.Client.desktop', 'io.github.spacingbat3.webcord.desktop', 'com.github.flxzt.rnote.desktop', 'org.gnome.Geary.desktop', 'com.raggesilver.BlackBox.desktop', 'org.gnome.Calendar.desktop']
+last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='45.1'
 
 [org/gnome/shell/extensions/app-hider]
-hidden-apps=['fish.desktop', 'nvim.desktop', 'Proton Hotfix.desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Proton Experimental.desktop', 'syncthing-ui.desktop', 'syncthing-start.desktop', 'qt5-linguist.desktop', 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop', 'julia.desktop', 'nvidia-settings.desktop', 'yelp.desktop', 'org.gnome.Tour.desktop', 'java-21-openjdk-21.0.2.0.13-3.fc40.x86_64-jconsole.desktop', 'org.fontforge.FontForge.desktop', 'mupdf-gl.desktop', 'io.github.vectorgraphics.asymptote.desktop', 'java-21-openjdk-21.0.3.0.9-1.fc40.x86_64-jconsole.desktop', 'Proton 9.0.desktop', 'steam_minimized.desktop', 'discord_minimized.desktop', 'btop.desktop']
-hidden-search-apps=['fish.desktop', 'nvim.desktop', 'Proton Hotfix.desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Proton Experimental.desktop', 'syncthing-start.desktop', 'qt5-linguist.desktop', 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop', 'julia.desktop', 'yelp.desktop', 'org.gnome.Tour.desktop', 'java-21-openjdk-21.0.2.0.13-3.fc40.x86_64-jconsole.desktop', 'java-21-openjdk-21.0.3.0.9-1.fc40.x86_64-jconsole.desktop', 'Proton 9.0.desktop', 'steam_minimized.desktop', 'discord_minimized.desktop']
+hidden-apps=['fish.desktop', 'nvim.desktop', 'Proton Hotfix.desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Proton Experimental.desktop', 'syncthing-ui.desktop', 'syncthing-start.desktop', 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop', 'julia.desktop', 'nvidia-settings.desktop', 'yelp.desktop', 'org.gnome.Tour.desktop', 'btop.desktop', 'discord_minimized.desktop', 'Proton 9.0.desktop', 'steam_minimized.desktop', 'org.torproject.torbrowser-launcher.settings.desktop']
+hidden-search-apps=['fish.desktop', 'Proton Hotfix.desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'nvim.desktop', 'Proton Experimental.desktop', 'syncthing-start.desktop', 'qt5-linguist.desktop', 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop', 'julia.desktop', 'org.gnome.Tour.desktop', 'nvidia-settings.desktop', 'yelp.desktop', 'btop.desktop', 'discord_minimized.desktop', 'Proton 9.0.desktop', 'steam_minimized.desktop', 'org.torproject.torbrowser-launcher.settings.desktop']
 
 [org/gnome/shell/extensions/arcmenu]
 arc-menu-icon=71
@@ -555,7 +541,7 @@ override-menu-theme=true
 pinned-app-list=@as []
 pinned-apps=[{'name': 'Firefox Web Browser', 'icon': 'firefox', 'id': 'firefox.desktop'}, {'name': 'Spotify', 'icon': 'com.spotify.Client', 'id': 'com.spotify.Client.desktop'}, {'name': 'Discord', 'icon': 'discord', 'id': 'discord.desktop'}, {'name': 'Steam (Runtime)', 'icon': 'steam', 'id': 'steam.desktop'}, {'name': 'Heroic Games Launcher', 'icon': 'com.heroicgameslauncher.hgl', 'id': 'com.heroicgameslauncher.hgl.desktop'}, {'name': 'Bitwarden', 'icon': 'com.bitwarden.desktop', 'id': 'com.bitwarden.desktop.desktop'}, {'name': 'WhatsApp Desktop', 'icon': 'io.github.mimbrero.WhatsAppDesktop', 'id': 'io.github.mimbrero.WhatsAppDesktop.desktop'}, {'name': 'Geary', 'icon': 'org.gnome.Geary', 'id': 'org.gnome.Geary.desktop'}, {'name': 'Obsidian', 'icon': 'md.obsidian.Obsidian', 'id': 'md.obsidian.Obsidian.desktop'}, {'name': 'Rnote', 'icon': 'com.github.flxzt.rnote', 'id': 'com.github.flxzt.rnote.desktop'}, {'name': 'System Monitor', 'icon': 'org.gnome.SystemMonitor', 'id': 'gnome-system-monitor.desktop'}, {'name': 'Terminal', 'icon': 'org.gnome.Terminal', 'id': 'org.gnome.Terminal.desktop'}]
 prefs-visible-page=0
-recently-installed-apps=['electron25.desktop', 'jshell-java-openjdk.desktop', 'jconsole-java-openjdk.desktop', 'jetbrains-toolbox.desktop', 'fish.desktop', 'designer.desktop', 'cmake-gui.desktop', 'assistant.desktop', 'qdbusviewer.desktop', 'linguist.desktop', 'ckb-next.desktop', 'jetbrains-rustrover-98f49aa2-9b57-43e5-ae27-057f32eb2bc7.desktop', 'jetbrains-pycharm-cde97794-b6d2-41aa-9549-f3e101ca1824.desktop', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927.desktop', 'org.gnome.Geary.desktop', 'Victoria 3.desktop', 'Hearts of Iron IV.desktop', 'Counter-Strike 2.desktop', 'steam-native.desktop', 'gnome-nettool.desktop', 'org.gnome.MultiWriter.desktop', 'org.gnome.Usage.desktop', 'org.gnome.Console.desktop', 'org.gnome.Evolution.desktop', "Sid Meier's Civilization VI.desktop", 'Rocket League.desktop', 'org.pipewire.Helvum.desktop', 'Crusader Kings III.desktop', 'com.ulduzsoft.Birdtray.desktop', 'org.mozilla.Thunderbird.desktop', 'com.jetbrains.toolbox-app.desktop', 'io.github.java_decompiler.jd-gui.desktop', 'ca.desrt.dconf-editor.desktop', 'com.jetbrains.PyCharm-Professional.desktop', 'jetbrains-clion-03277d21-fad5-45b6-b449-6d4486649237.desktop', 're.sonny.Workbench.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.World.PikaBackup.desktop', 'com.hunterwittenborn.Celeste.desktop', 'com.github.wwmm.easyeffects.desktop', 'virtualbox.desktop', 'ffado-mixer.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 're.sonny.Junction.desktop', 'htop.desktop', 'org.openrgb.OpenRGB.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'me.kozec.syncthingtk.desktop', 'com.nextcloud.desktopclient.nextcloud.desktop', 'syncthing-ui.desktop', 'syncthing-start.desktop', 'snap-store_snap-store.desktop', 'pycharm-educational_pycharm-educational.desktop', 'webstorm_webstorm.desktop', 'rider_rider.desktop', 'intellij-idea-community_intellij-idea-community.desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Horizon Forbidden West Complete Edition.desktop', 'Proton Hotfix.desktop', 'Proton Experimental.desktop', 'Farthest Frontier.desktop', 'com.github.flxzt.rnote.desktop', 'qt5-linguist.desktop', 'julia.desktop', 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop', 'Stellaris.desktop', 'Europa Universalis IV.desktop', 'torbrowser-settings.desktop', 'com.jetbrains.CLion.desktop', 'com.google.Chrome.desktop', 'io.github.spacingbat3.webcord.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'mupdf-gl.desktop', 'org.inkscape.Inkscape.desktop', 'java-21-openjdk-21.0.2.0.13-3.fc40.x86_64-jconsole.desktop', 'jetbrains-pycharm-8057d945-aadc-4618-ab06-fd348021d403.desktop', 'Total War PHARAOH.desktop', 'org.gnome.Extensions.desktop', 'OpenRGB.desktop', 'org.torproject.torbrowser-launcher.settings.desktop', 'btop.desktop', 'com.bitwarden.desktop.desktop', 'org.qt-project.qtcreator.desktop', 'com.github.tchx84.Flatseal.desktop', 'steam_minimized.desktop', 'discord_minimized.desktop', 'com.github.KRTirtho.Spotube.desktop']
+recently-installed-apps=['electron25.desktop', 'jshell-java-openjdk.desktop', 'jconsole-java-openjdk.desktop', 'designer.desktop', 'cmake-gui.desktop', 'assistant.desktop', 'qdbusviewer.desktop', 'linguist.desktop', 'ckb-next.desktop', 'jetbrains-rustrover-98f49aa2-9b57-43e5-ae27-057f32eb2bc7.desktop', 'jetbrains-pycharm-cde97794-b6d2-41aa-9549-f3e101ca1824.desktop', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927.desktop', 'Victoria 3.desktop', 'Hearts of Iron IV.desktop', 'Counter-Strike 2.desktop', 'steam-native.desktop', 'gnome-nettool.desktop', 'org.gnome.MultiWriter.desktop', 'org.gnome.Usage.desktop', 'org.gnome.Console.desktop', 'org.gnome.Evolution.desktop', "Sid Meier's Civilization VI.desktop", 'Rocket League.desktop', 'org.pipewire.Helvum.desktop', 'Crusader Kings III.desktop', 'com.ulduzsoft.Birdtray.desktop', 'org.mozilla.Thunderbird.desktop', 'OpenRGB.desktop', 'com.jetbrains.toolbox-app.desktop', 'io.github.java_decompiler.jd-gui.desktop', 'ca.desrt.dconf-editor.desktop', 'com.jetbrains.PyCharm-Professional.desktop', 'jetbrains-clion-03277d21-fad5-45b6-b449-6d4486649237.desktop', 're.sonny.Workbench.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.World.PikaBackup.desktop', 'com.hunterwittenborn.Celeste.desktop', 'com.github.wwmm.easyeffects.desktop', 'virtualbox.desktop', 'ffado-mixer.desktop', 'io.github.dyegoaurelio.simple-wireplumber-gui.desktop', 're.sonny.Junction.desktop', 'htop.desktop', 'org.openrgb.OpenRGB.desktop', 'net.lutris.Lutris.desktop', 'Banished.desktop', 'me.kozec.syncthingtk.desktop', 'com.nextcloud.desktopclient.nextcloud.desktop', 'minecraft-launcher.desktop', 'nvim.desktop', 'snap-store_snap-store.desktop', 'pycharm-educational_pycharm-educational.desktop', 'webstorm_webstorm.desktop', 'rider_rider.desktop', 'intellij-idea-community_intellij-idea-community.desktop', 'Steam Linux Runtime 3.0 (sniper).desktop', 'Horizon Forbidden West Complete Edition.desktop', 'Proton Hotfix.desktop', 'Proton Experimental.desktop', 'Farthest Frontier.desktop', 'qt5-linguist.desktop', 'julia.desktop', 'java-17-openjdk-17.0.9.0.9-3.fc39.x86_64-jconsole.desktop', 'com.github.marhkb.Pods.desktop', 'Stellaris.desktop', 'Europa Universalis IV.desktop', 'torbrowser-settings.desktop', 'com.jetbrains.CLion.desktop', 'com.google.Chrome.desktop', 'io.github.spacingbat3.webcord.desktop', 'org.gnome.Snapshot.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'mupdf-gl.desktop', 'org.fontforge.FontForge.desktop', 'io.github.vectorgraphics.asymptote.desktop', 'org.inkscape.Inkscape.desktop', 'jetbrains-clion-6673f66e-4d53-4548-978b-ce7ac149fccc.desktop', 'com.github.tchx84.Flatseal.desktop', 'steam_minimized.desktop', 'Grand Theft Auto V.desktop', 'discord_minimized.desktop', 'Total War PHARAOH.desktop', 'jetbrains-idea-da9cb7e8-a996-4a66-8a32-730dd7cffbe2.desktop', 'jetbrains-clion-20b387bf-051c-4534-87a4-f57aeeb6c5a0.desktop', 'jetbrains-pycharm-8057d945-aadc-4618-ab06-fd348021d403.desktop', 'jetbrains-rustrover-df303abb-0d31-405b-8af1-4762717d4815.desktop', 'Proton 9.0.desktop', 'com.getpostman.Postman.desktop', 'btop.desktop', 'jetbrains-toolbox.desktop']
 search-entry-border-radius=(true, 25)
 show-activities-button=false
 
@@ -602,18 +588,18 @@ animate-appicon-hover-animation-travel={'SIMPLE': 0.14999999999999999, 'RIPPLE':
 animate-appicon-hover-animation-type='SIMPLE'
 appicon-margin=8
 appicon-padding=4
-available-monitors=[1, 0, 2]
+available-monitors=[0]
 dot-position='BOTTOM'
 dot-style-focused='SQUARES'
 dot-style-unfocused='DOTS'
 hotkeys-overlay-combo='TEMPORARILY'
 leftbox-padding=-1
 panel-anchors='{"0":"MIDDLE","1":"MIDDLE","2":"MIDDLE"}'
-panel-element-positions='{"0":[{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"1":[{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"2":[{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-element-positions='{"0":[{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"showAppsButton","visible":false,"position":"centerMonitor"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"1":[{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}],"2":[{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
 panel-element-positions-monitors-sync=false
 panel-lengths='{"0":100,"1":100,"2":100}'
-panel-sizes='{"0":40,"1":48,"2":40}'
-primary-monitor=1
+panel-sizes='{"0":48,"1":48,"2":40}'
+primary-monitor=0
 status-icon-padding=-1
 trans-panel-opacity=0.70000000000000007
 trans-use-custom-bg=false
@@ -688,14 +674,6 @@ window-demands-attention-focus=false
 [org/gnome/shell/extensions/phi]
 url1='https://pihole.local.yakweide.de/admin/api.php'
 
-[org/gnome/shell/extensions/pop-shell]
-active-hint=false
-active-hint-border-radius=uint32 2
-gap-inner=uint32 1
-gap-outer=uint32 1
-hint-color-rgba='rgb(108,209,251)'
-tile-by-default=true
-
 [org/gnome/shell/extensions/sp-tray]
 album-max-length=50
 artist-max-length=50
@@ -718,12 +696,12 @@ locations=[<(uint32 2, <('Frankfurt', 'EDDF', false, [(0.87353729062316188, 0.15
 locations=[<(uint32 2, <('Los Angeles', 'KCQT', true, [(0.59370283970450188, -2.0644336110828618)], [(0.59432360095955872, -2.063741622941031)])>)>, <(uint32 2, <('Chicago', 'KMDW', true, [(0.72927128935316143, -1.5316185371029443)], [(0.73042086791828009, -1.529781996944241)])>)>, <(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('London', 'EGWU', true, [(0.89971722940307675, -0.007272211034407213)], [(0.89884456477707964, -0.0020362232784242244)])>)>, <(uint32 2, <('Moscow', 'UUWW', true, [(0.97127572873484425, 0.65042604039431762)], [(0.97305983920281813, 0.65651530216830811)])>)>]
 
 [org/gnome/software]
-check-timestamp=int64 1720423382
+check-timestamp=int64 1723141466
 first-run=false
-flatpak-purge-timestamp=int64 1720348124
-install-timestamp=int64 1719608800
-packagekit-historical-updates-timestamp=uint64 1719608800
-update-notification-timestamp=int64 1719609070
+flatpak-purge-timestamp=int64 1721774862
+install-timestamp=int64 1723026703
+packagekit-historical-updates-timestamp=uint64 1723026703
+update-notification-timestamp=int64 1723026962
 upgrade-notification-timestamp=int64 1713997422
 
 [org/gnome/system/location]
@@ -745,7 +723,7 @@ show-extensions-notice=false
 
 [org/gtk/gtk4/settings/color-chooser]
 custom-colors=[(0.75, 0.25, 0.25, 1.0), (0.14117647707462311, 0.14117647707462311, 0.14117647707462311, 0.85333335399627686), (0.14117647707462311, 0.14117647707462311, 0.14117647707462311, 0.91333335638046265), (0.18823529779911041, 0.18823529779911041, 0.19215686619281769, 0.98000001907348633)]
-selected-color=(true, 0.38431373238563538, 0.62745100259780884, 0.91764706373214722, 1.0)
+selected-color=(true, 0.20784313976764679, 0.51764708757400513, 0.89411765336990356, 1.0)
 
 [org/gtk/gtk4/settings/emoji-chooser]
 recent-emoji=[(([uint32 128516], 'grinning face with smiling eyes', ['eye', 'face', 'mouth', 'open', 'smile'], uint32 0), uint32 0)]
@@ -764,10 +742,6 @@ type-format='category'
 view-type='list'
 window-size=(859, 372)
 
-[org/gtk/settings/color-chooser]
-custom-colors=[(0.42352941176470588, 0.81960784313725488, 0.98431372549019602, 1.0), (0.42352941176470582, 0.82004357298474917, 0.98431372549019602, 1.0), (0.42352941176470588, 0.6470588235294118, 0.98431372549019602, 1.0), (0.42352941176470582, 0.64784313725490217, 0.98431372549019602, 1.0), (0.42352941176470588, 0.85490196078431369, 0.98431372549019602, 1.0), (0.42352941176470582, 0.85403050108932455, 0.98431372549019602, 1.0), (0.98431372549019602, 0.72156862745098038, 0.42352941176470588, 1.0)]
-selected-color=(true, 0.42352941176470588, 0.81960784313725488, 0.98431372549019602, 1.0)
-
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
@@ -779,7 +753,7 @@ sort-column='name'
 sort-directories-first=false
 sort-order='descending'
 type-format='category'
-window-position=(2599, 222)
+window-position=(26, 23)
 window-size=(1203, 902)
 
 [system/locale]
