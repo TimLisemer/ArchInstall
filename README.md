@@ -323,7 +323,7 @@ Asus ROG Strix X470-F GAMING:
 
 Setup Gnome Settings, Extension-Settings, Tweaks using Dconf:
 ```
-curl -sSL https://raw.githubusercontent.com/TimLisemer/ArchInstall/main/dconf.txt | dconf load /
+sudo curl -sSL https://raw.githubusercontent.com/TimLisemer/ArchInstall/main/dconf.txt | dconf load -f /
 ```
 
 Store using Dconf:
