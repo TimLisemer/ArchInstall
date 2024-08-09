@@ -103,7 +103,7 @@ panel-id='world'
 size=(870, 690)
 
 [org/gnome/control-center]
-last-panel='wifi'
+last-panel='online-accounts'
 window-state=(1002, 634, false)
 
 [org/gnome/desktop/app-folders]
@@ -176,8 +176,8 @@ gtk-theme='adw-gtk3-dark'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-software', 'com-nextcloud-desktopclient-nextcloud', 'firefox', 'jetbrains-toolbox', 'org-gnome-geary', 'com-spotify-client', 'steam', 'com-discordapp-discord', 'gnome-power-panel', 'org-gnome-extensions-desktop', 'org-gnome-evolution', 'io-github-spacingbat3-webcord', 'org-gnome-settings', 'ckb-next', 'org-mozilla-thunderbird', 'com-ulduzsoft-birdtray', 'discord', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927', 'org-gnome-shell-extensions', 'org-gnome-boxes', 'webcord', 'org-gnome-nautilus', 'org-gnome-terminal', 'org-gnome-builder', 'org-gnome-shell-extensions-gsconnect', 'com-heroicgameslauncher-hgl', 'gnome-network-panel', 'me-kozec-syncthingtk', 'org-freedesktop-problems-applet', 'rustrover-rustrover', 'org-openrgb-openrgb', 'org-mozilla-firefox', 'webstorm-webstorm', 'io-snapcraft-sessionagent', 'code-code', 'clion-clion', 'org-gnome-texteditor', 'com-mattjakeman-extensionmanager-desktop', 'pycharm-professional-pycharm-professional', 'com-github-marhkb-pods', 'com-mattjakeman-extensionmanager', 'org-qt-project-qtcreator', 'org-gnome-calendar', 'org-cvfosammmm-setzer', 'jetbrains-rustrover-16ae9fbc-8f5b-40aa-8ada-3541e1f0b9c0', 'org-gnome-evolution-alarm-notify', 'jetbrains-idea-01365754-38bc-43a2-bdde-e74cdd39b108', 'com-raggesilver-blackbox', 'jetbrains-clion-6673f66e-4d53-4548-978b-ce7ac149fccc', 'org-torproject-torbrowser-launcher', 'org-wireshark-wireshark', 'org-filezillaproject-filezilla', 'jetbrains-rustrover-d61ab101-1905-41e4-9f74-e9120a0f7b00', 'org-fedoraproject-mediawriter']
-show-banners=false
+application-children=['org-gnome-software', 'com-nextcloud-desktopclient-nextcloud', 'firefox', 'jetbrains-toolbox', 'org-gnome-geary', 'com-spotify-client', 'steam', 'com-discordapp-discord', 'gnome-power-panel', 'org-gnome-extensions-desktop', 'org-gnome-evolution', 'io-github-spacingbat3-webcord', 'org-gnome-settings', 'ckb-next', 'org-mozilla-thunderbird', 'com-ulduzsoft-birdtray', 'discord', 'jetbrains-clion-8e1cad27-85f3-48b3-90ae-1503cc39d927', 'org-gnome-shell-extensions', 'org-gnome-boxes', 'webcord', 'org-gnome-nautilus', 'org-gnome-terminal', 'org-gnome-builder', 'org-gnome-shell-extensions-gsconnect', 'com-heroicgameslauncher-hgl', 'gnome-network-panel', 'me-kozec-syncthingtk', 'org-freedesktop-problems-applet', 'rustrover-rustrover', 'org-openrgb-openrgb', 'org-mozilla-firefox', 'webstorm-webstorm', 'io-snapcraft-sessionagent', 'code-code', 'clion-clion', 'org-gnome-texteditor', 'com-mattjakeman-extensionmanager-desktop', 'pycharm-professional-pycharm-professional', 'com-github-marhkb-pods', 'com-mattjakeman-extensionmanager', 'org-qt-project-qtcreator', 'org-gnome-calendar', 'org-cvfosammmm-setzer', 'jetbrains-rustrover-16ae9fbc-8f5b-40aa-8ada-3541e1f0b9c0', 'org-gnome-evolution-alarm-notify', 'jetbrains-idea-01365754-38bc-43a2-bdde-e74cdd39b108', 'com-raggesilver-blackbox', 'jetbrains-clion-6673f66e-4d53-4548-978b-ce7ac149fccc', 'org-torproject-torbrowser-launcher', 'org-wireshark-wireshark', 'org-filezillaproject-filezilla', 'jetbrains-rustrover-d61ab101-1905-41e4-9f74-e9120a0f7b00', 'org-fedoraproject-mediawriter', 'kitty']
+show-banners=true
 
 [org/gnome/desktop/notifications/application/ckb-next]
 application-id='ckb-next.desktop'
@@ -259,6 +259,9 @@ application-id='jetbrains-rustrover-d61ab101-1905-41e4-9f74-e9120a0f7b00.desktop
 application-id='jetbrains-toolbox.desktop'
 details-in-lock-screen=true
 force-expanded=true
+
+[org/gnome/desktop/notifications/application/kitty]
+application-id='kitty.desktop'
 
 [org/gnome/desktop/notifications/application/me-kozec-syncthingtk]
 application-id='me.kozec.syncthingtk.desktop'
@@ -367,7 +370,7 @@ force-expanded=true
 application-id='webstorm_webstorm.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=false
+numlock-state=true
 
 [org/gnome/desktop/peripherals/mouse]
 accel-profile='flat'
@@ -511,7 +514,7 @@ app-picker-layout=[{'2612b819-2b5f-4276-a20a-5fa1eaea2eff': <{'position': <0>}>,
 command-history=['r']
 disable-user-extensions=false
 disabled-extensions=['just-perfection-desktop@just-perfection', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'system-monitor-indicator@mknap.com', 'System_Monitor@bghome.gmail.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'arcmenu@arcmenu.com']
-enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com', 'sp-tray@sp-tray.esenliyim.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'weatherornot@somepaulo.github.io', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'chatgpt-gnome-desktop@chatgpt-gnome-desktop', 'windowIsReady_Remover@nunofarruca@gmail.com', 'gsconnect@andyholmes.github.io', 'arch-update@RaphaelRochet', 'Resource_Monitor@Ory0n', 'monitor@astraext.github.io', 'gtk4-ding@smedius.gitlab.com', 'app-hider@lynith.dev', 'phi@ziyagenc.github.com']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'ControlBlurEffectOnLockScreen@pratap.fastmail.fm', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com', 'sp-tray@sp-tray.esenliyim.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'weatherornot@somepaulo.github.io', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'chatgpt-gnome-desktop@chatgpt-gnome-desktop', 'windowIsReady_Remover@nunofarruca@gmail.com', 'gsconnect@andyholmes.github.io', 'arch-update@RaphaelRochet', 'Resource_Monitor@Ory0n', 'monitor@astraext.github.io', 'gtk4-ding@smedius.gitlab.com', 'phi@ziyagenc.github.com', 'app-hider@lynith.dev']
 favorite-apps=['org.gnome.Nautilus.desktop', 'org.mozilla.firefox.desktop', 'com.spotify.Client.desktop', 'io.github.spacingbat3.webcord.desktop', 'com.github.flxzt.rnote.desktop', 'org.gnome.Geary.desktop', 'com.raggesilver.BlackBox.desktop', 'org.gnome.Calendar.desktop']
 last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='45.1'
@@ -588,7 +591,7 @@ animate-appicon-hover-animation-travel={'SIMPLE': 0.14999999999999999, 'RIPPLE':
 animate-appicon-hover-animation-type='SIMPLE'
 appicon-margin=8
 appicon-padding=4
-available-monitors=[0]
+available-monitors=[0, 1, 2]
 dot-position='BOTTOM'
 dot-style-focused='SQUARES'
 dot-style-unfocused='DOTS'
@@ -698,7 +701,7 @@ locations=[<(uint32 2, <('Los Angeles', 'KCQT', true, [(0.59370283970450188, -2.
 [org/gnome/software]
 check-timestamp=int64 1723141466
 first-run=false
-flatpak-purge-timestamp=int64 1721774862
+flatpak-purge-timestamp=int64 1723163168
 install-timestamp=int64 1723026703
 packagekit-historical-updates-timestamp=uint64 1723026703
 update-notification-timestamp=int64 1723026962
